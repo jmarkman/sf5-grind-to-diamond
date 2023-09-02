@@ -1,9 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import NavBar from './components/navbar';
+import SiteBody from './components/sitebody';
 
 const App = () => {
-  
+  return (
+    <body>
+      <NavBar />
+      <SiteBody />
+    </body>
+  );
 }
 
 export default App;
