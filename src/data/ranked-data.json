@@ -1,0 +1,4340 @@
+[
+    {
+        "date": "2023-01-03",
+        "pointsStart": 10035,
+        "pointsEnd": 10861,
+        "matches": [
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Ryu",
+                "replayId": "4EC4E73FE"
+            },
+            {
+                "points": 89,
+                "result": "WIN",
+                "opponent": "Karin",
+                "replayId": "4EC4E790F"
+            },
+            {
+                "points": 94,
+                "result": "WIN",
+                "opponent": "Karin",
+                "replayId": "4EC4E7BD4"
+            },
+            {
+                "points": 86,
+                "result": "LOSS",
+                "opponent": "Gill",
+                "replayId": "4EC4E7EFB"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Gill",
+                "replayId": "4EC4E8305"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Gill",
+                "replayId": "4EC4E860A"
+            },
+            {
+                "points": 98,
+                "result": "WIN",
+                "opponent": "Zeku",
+                "replayId": "4EC4E8A20"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Zeku",
+                "replayId": "4EC4E8D20"
+            },
+            {
+                "points": 98,
+                "result": "WIN",
+                "opponent": "Zeku",
+                "replayId": "4EC4E8F0D"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "4EC4E9239"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "4EC4E9608"
+            },
+            {
+                "points": 86,
+                "result": "WIN",
+                "opponent": "Ryu",
+                "replayId": "4EC4E99EF"
+            },
+            {
+                "points": 84,
+                "result": "WIN",
+                "opponent": "Ryu",
+                "replayId": "4EC4E9DFB"
+            },
+            {
+                "points": 72,
+                "result": "WIN",
+                "opponent": "Cammy",
+                "replayId": "4EC4EA090"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Cammy",
+                "replayId": "4EC4EA2DF"
+            }
+        ]
+    },
+    {
+        "date": "2023-01-09",
+        "pointsStart": 10861,
+        "pointsEnd": 11212,
+        "matches": [
+            {
+                "points": 109,
+                "result": "WIN",
+                "opponent": "Dhalsim",
+                "replayId": "4EC6C4C62"
+            },
+            {
+                "points": 126,
+                "result": "WIN",
+                "opponent": "Dhalsim",
+                "replayId": "4EC6C4F47"
+            },
+            {
+                "points": 142,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "4EC6C51BF"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Guile",
+                "replayId": "4EC6C541A"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "4EC6C5695"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Luke",
+                "replayId": "4EC6C58A2"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Luke",
+                "replayId": "4EC6C5ABF"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Ryu",
+                "replayId": "4EC6C5D17"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Gill",
+                "replayId": "4EC6C6000"
+            }
+        ]
+    },
+    {
+        "date": "2023-02-03",
+        "pointsStart": 11212,
+        "pointsEnd": 10238,
+        "matches": [
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Balrog",
+                "replayId": "4ECE7561B"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Bison",
+                "replayId": "4ECE75935"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Bison",
+                "replayId": "4ECE75C7D"
+            },
+            {
+                "points": 87,
+                "result": "LOSS",
+                "opponent": "Birdie",
+                "replayId": "4ECE75F0D"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Necalli",
+                "replayId": "4ECE7625E"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Necalli",
+                "replayId": "4ECE76618"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Chun-Li",
+                "replayId": "4ECE7695F"
+            },
+            {
+                "points": 83,
+                "result": "WIN",
+                "opponent": "Chun-Li",
+                "replayId": "4ECE76D4B"
+            },
+            {
+                "points": 82,
+                "result": "WIN",
+                "opponent": "Chun-Li",
+                "replayId": "4ECE76FEA"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Laura",
+                "replayId": "4ECE773EF"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Laura",
+                "replayId": "4ECE7766C"
+            },
+            {
+                "points": 91,
+                "result": "WIN",
+                "opponent": "Kolin",
+                "replayId": "4ECE778E3"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Kolin",
+                "replayId": "4ECE77E35"
+            },
+            {
+                "points": 90,
+                "result": "WIN",
+                "opponent": "Kolin",
+                "replayId": "4ECE7826E"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Kage",
+                "replayId": "4ECE78652"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Kage",
+                "replayId": "4ECE7893C"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Sagat",
+                "replayId": "4ECE78D0B"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Sagat",
+                "replayId": "4ECE79107"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Blanka",
+                "replayId": "4ECE79471"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Blanka",
+                "replayId": "4ECE79755"
+            },
+            {
+                "points": 88,
+                "result": "WIN",
+                "opponent": "Ryu",
+                "replayId": "4ECE79E31"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "4ECE7A27C"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "4ECE7A4ED"
+            },
+            {
+                "points": 88,
+                "result": "LOSS",
+                "opponent": "Alex",
+                "replayId": "4ECE7A8E8"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Alex",
+                "replayId": "4ECE7AC95"
+            },
+            {
+                "points": 88,
+                "result": "LOSS",
+                "opponent": "Alex",
+                "replayId": "4ECE7AE9A"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Ryu",
+                "replayId": "4ECE7B130"
+            },
+            {
+                "points": 87,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "4ECE7B4FD"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Ryu",
+                "replayId": "4ECE7B7B5"
+            },
+            {
+                "points": 87,
+                "result": "LOSS",
+                "opponent": "Vega",
+                "replayId": "4ECE7BA2A"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Bison",
+                "replayId": "4ECE7BE8E"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Bison",
+                "replayId": "4ECE7C209"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Nash",
+                "replayId": "4ECE7C603"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Nash",
+                "replayId": "4ECE7C8FC"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Akuma",
+                "replayId": "4ECE7CC8F"
+            },
+            {
+                "points": 86,
+                "result": "LOSS",
+                "opponent": "Akuma",
+                "replayId": "4ECE7D063"
+            },
+            {
+                "points": 86,
+                "result": "LOSS",
+                "opponent": "Akuma",
+                "replayId": "4ECE7D331"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Balrog",
+                "replayId": "4ECE7D85D"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Kage",
+                "replayId": "4ECE7DCCE"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Kage",
+                "replayId": "4ECE7DFFC"
+            },
+            {
+                "points": 86,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "4ECE7E26C"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "4ECE7E70F"
+            },
+            {
+                "points": 86,
+                "result": "LOSS",
+                "opponent": "Urien",
+                "replayId": "4ECE7EAF9"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Urien",
+                "replayId": "4ECE7EF1A"
+            },
+            {
+                "points": 82,
+                "result": "WIN",
+                "opponent": "Urien",
+                "replayId": "4ECE7F48C"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Urien",
+                "replayId": "4ECE7F747"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Urien",
+                "replayId": "4ECE7F9B3"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Ken",
+                "replayId": "4ECE7FD57"
+            },
+            {
+                "points": 104,
+                "result": "WIN",
+                "opponent": "Ken",
+                "replayId": "4ECE8004F"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Ken",
+                "replayId": "4ECE802D8"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Ryu",
+                "replayId": "4ECE8058B"
+            }
+        ]
+    },
+    {
+        "date": "2023-02-04",
+        "pointsStart": 10238,
+        "pointsEnd": 9661,
+        "matches": [
+            {
+                "points": 87,
+                "result": "LOSS",
+                "opponent": "Karin",
+                "replayId": "4ECED9B46"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Karin",
+                "replayId": "4ECED9E4A"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Karin",
+                "replayId": "4ECEDA0DC"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Karin",
+                "replayId": "4ECEDA743"
+            },
+            {
+                "points": 86,
+                "result": "LOSS",
+                "opponent": "Karin",
+                "replayId": "4ECEDAA04"
+            },
+            {
+                "points": 86,
+                "result": "LOSS",
+                "opponent": "Karin",
+                "replayId": "4ECEDACF4"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Ed",
+                "replayId": "4ECEDAF82"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Ed",
+                "replayId": "4ECEDB329"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Ed",
+                "replayId": "4ECEDB673"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "4ECEDBA08"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "4ECEDBD0B"
+            },
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Alex",
+                "replayId": "4ECEDBF3A"
+            },
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Alex",
+                "replayId": "4ECEDC376"
+            },
+            {
+                "points": 90,
+                "result": "WIN",
+                "opponent": "Zangief",
+                "replayId": "4ECEDC966"
+            },
+            {
+                "points": 89,
+                "result": "WIN",
+                "opponent": "Zangief",
+                "replayId": "4ECEDCD48"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Balrog",
+                "replayId": "4ECEDD133"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Akuma",
+                "replayId": "4ECEDD5F3"
+            },
+            {
+                "points": 86,
+                "result": "LOSS",
+                "opponent": "Akuma",
+                "replayId": "4ECEDDA7D"
+            },
+            {
+                "points": 86,
+                "result": "LOSS",
+                "opponent": "Akuma",
+                "replayId": "4ECEDDE80"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Kage",
+                "replayId": "4ECEDE2C7"
+            },
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Kage",
+                "replayId": "4ECEDE607"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Kage",
+                "replayId": "4ECEDE910"
+            },
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Urien",
+                "replayId": "4ECEDEC4E"
+            },
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Urien",
+                "replayId": "4ECEDEFA9"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "4ECEDF1C1"
+            },
+            {
+                "points": 94,
+                "result": "WIN",
+                "opponent": "Ryu",
+                "replayId": "4ECEDF4BF"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "4ECEDF72A"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Laura",
+                "replayId": "4ECEDFD47"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Laura",
+                "replayId": "4ECEE0068"
+            },
+            {
+                "points": 96,
+                "result": "WIN",
+                "opponent": "Lucia",
+                "replayId": "4ECEE030C"
+            },
+            {
+                "points": 94,
+                "result": "WIN",
+                "opponent": "Lucia",
+                "replayId": "4ECEE06F7"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Nash",
+                "replayId": "4ECEE0D73"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "4ECEE11A2"
+            },
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Cody",
+                "replayId": "4ECEE1484"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Cody",
+                "replayId": "4ECEE1873"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Rose",
+                "replayId": "4ECEE1CB3"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Rose",
+                "replayId": "4ECEE2023"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Akuma",
+                "replayId": "4ECEE231D"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Guile",
+                "replayId": "4ECEE2AF1"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Guile",
+                "replayId": "4ECEE2EDE"
+            },
+            {
+                "points": 100,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "4ECEE3273"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Guile",
+                "replayId": "4ECEE3622"
+            },
+            {
+                "points": 100,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "4ECEE39A3"
+            },
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "4ECEE3FD0"
+            },
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "4ECEE4512"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "F.A.N.G.",
+                "replayId": "4ECEE4A89"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Cody",
+                "replayId": "4ECEE4E9C"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Cody",
+                "replayId": "4ECEE45114"
+            }
+        ]
+    },
+    {
+        "date": "2023-02-05",
+        "pointsStart": 9661,
+        "pointsEnd": 9927,
+        "matches": [
+            {
+                "points": 90,
+                "result": "WIN",
+                "opponent": "Luke",
+                "replayId": "4ECF3642B"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Luke",
+                "replayId": "4ECF366EB"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Luke",
+                "replayId": "4ECF36919"
+            },
+            {
+                "points": 92,
+                "result": "WIN",
+                "opponent": "Bison",
+                "replayId": "4ECF36B74"
+            },
+            {
+                "points": 90,
+                "result": "WIN",
+                "opponent": "Bison",
+                "replayId": "4ECF36DC4"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Urien",
+                "replayId": "4ECF370D8"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Urien",
+                "replayId": "4ECF3733F"
+            },
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Juri",
+                "replayId": "4ECF375AD"
+            },
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Juri",
+                "replayId": "4ECF3781D"
+            },
+            {
+                "points": 107,
+                "result": "WIN",
+                "opponent": "Alex",
+                "replayId": "4ECF37C91"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Alex",
+                "replayId": "4ECF37F9C"
+            },
+            {
+                "points": 106,
+                "result": "WIN",
+                "opponent": "Alex",
+                "replayId": "4ECF38239"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Sagat",
+                "replayId": "4ECF38567"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Sagat",
+                "replayId": "4ECF38875"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Sagat",
+                "replayId": "4ECF38BA8"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Akuma",
+                "replayId": "4ECF38ED2"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Akuma",
+                "replayId": "4ECF39244"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Cammy",
+                "replayId": "4ECF39577"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Seth",
+                "replayId": "4ECF3991E"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Seth",
+                "replayId": "4ECF39C58"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Seth",
+                "replayId": "4ECF39DDD"
+            },
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Juri",
+                "replayId": "4ECF3A247"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Juri",
+                "replayId": "4ECF3A55E"
+            },
+            {
+                "points": 100,
+                "result": "WIN",
+                "opponent": "Karin",
+                "replayId": "4ECF3A79A"
+            },
+            {
+                "points": 99,
+                "result": "WIN",
+                "opponent": "Karin",
+                "replayId": "4ECF3A9CE"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Akuma",
+                "replayId": "4ECF3ABDB"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Akuma",
+                "replayId": "4ECF3ADF0"
+            },
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Guile",
+                "replayId": "4ECF3B2B8"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "4ECF3B5FC"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "4ECF3B848"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Ryu",
+                "replayId": "4ECF3BB90"
+            },
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Alex",
+                "replayId": "4ECF3BF12"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Alex",
+                "replayId": "4ECF3C1FB"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Alex",
+                "replayId": "4ECF3C438"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Akuma",
+                "replayId": "4ECF3C660"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Akuma",
+                "replayId": "4ECF3C87D"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Akuma",
+                "replayId": "4ECF3CA30"
+            }
+        ]
+    },
+    {
+        "date": "2023-02-06",
+        "pointsStart": 9927,
+        "pointsEnd": 10044,
+        "matches": [
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Urien",
+                "replayId": "4ECF84BD2"
+            },
+            {
+                "points": 95,
+                "result": "WIN",
+                "opponent": "Gill",
+                "replayId": "4ECF84FA8"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Ken",
+                "replayId": "4ECF85325"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Ken",
+                "replayId": "4ECF85696"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "4ECF85908"
+            },
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Bison",
+                "replayId": "4ECF85BC5"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Bison",
+                "replayId": "4ECF85F9B"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Bison",
+                "replayId": "4ECF86102"
+            },
+            {
+                "points": 101,
+                "result": "WIN",
+                "opponent": "Akuma",
+                "replayId": "4ECF86352"
+            },
+            {
+                "points": 99,
+                "result": "WIN",
+                "opponent": "Akuma",
+                "replayId": "4ECF86653"
+            }
+        ]
+    },
+    {
+        "date": "2023-02-11",
+        "pointsStart": 10044,
+        "pointsEnd": 10762,
+        "matches": [
+            {
+                "points": 77,
+                "result": "WIN",
+                "opponent": "Birdie",
+                "replayId": "Missing"
+            },
+            {
+                "points": 82,
+                "result": "WIN",
+                "opponent": "Birdie",
+                "replayId": "Missing"
+            },
+            {
+                "points": 89,
+                "result": "WIN",
+                "opponent": "Cody",
+                "replayId": "Missing"
+            },
+            {
+                "points": 103,
+                "result": "WIN",
+                "opponent": "Cody",
+                "replayId": "Missing"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "Missing"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "Missing"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Birdie",
+                "replayId": "Missing"
+            },
+            {
+                "points": 76,
+                "result": "WIN",
+                "opponent": "Birdie",
+                "replayId": "Missing"
+            },
+            {
+                "points": 75,
+                "result": "WIN",
+                "opponent": "Birdie",
+                "replayId": "Missing"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Alex",
+                "replayId": "Missing"
+            },
+            {
+                "points": 95,
+                "result": "WIN",
+                "opponent": "Alex",
+                "replayId": "Missing"
+            },
+            {
+                "points": 94,
+                "result": "WIN",
+                "opponent": "Alex",
+                "replayId": "Missing"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Oro",
+                "replayId": "Missing"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Oro",
+                "replayId": "Missing"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Luke",
+                "replayId": "Missing"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Luke",
+                "replayId": "Missing"
+            },
+            {
+                "points": 88,
+                "result": "LOSS",
+                "opponent": "Ken",
+                "replayId": "Missing"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Ken",
+                "replayId": "Missing"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Ken",
+                "replayId": "Missing"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Ken",
+                "replayId": "Missing"
+            },
+            {
+                "points": 68,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "Missing"
+            },
+            {
+                "points": 67,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "Missing"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Laura",
+                "replayId": "Missing"
+            },
+            {
+                "points": 66,
+                "result": "WIN",
+                "opponent": "Laura",
+                "replayId": "Missing"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Laura",
+                "replayId": "Missing"
+            }
+        ]
+    },
+    {
+        "date": "2023-02-22",
+        "pointsStart": 10762,
+        "pointsEnd": 10950,
+        "matches": [
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Juri",
+                "replayId": "4ED49736B"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Juri",
+                "replayId": "4ED497772"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Vega",
+                "replayId": "4ED497B4A"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Vega",
+                "replayId": "4ED497E48"
+            },
+            {
+                "points": 94,
+                "result": "WIN",
+                "opponent": "Nash",
+                "replayId": "4ED498184"
+            },
+            {
+                "points": 92,
+                "result": "WIN",
+                "opponent": "Nash",
+                "replayId": "4ED49867E"
+            },
+            {
+                "points": 88,
+                "result": "LOSS",
+                "opponent": "Urien",
+                "replayId": "4ED498A15"
+            },
+            {
+                "points": 88,
+                "result": "LOSS",
+                "opponent": "Urien",
+                "replayId": "4ED498D2B"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Bison",
+                "replayId": "4ED49911A"
+            },
+            {
+                "points": 67,
+                "result": "WIN",
+                "opponent": "Bison",
+                "replayId": "4ED4994C2"
+            },
+            {
+                "points": 66,
+                "result": "WIN",
+                "opponent": "Bison",
+                "replayId": "4ED4997B5"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "G",
+                "replayId": "4ED499AB6"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "G",
+                "replayId": "4ED499DA1"
+            }
+        ]
+    },
+    {
+        "date": "2023-02-23",
+        "pointsStart": 10950,
+        "pointsEnd": 11516,
+        "matches": [
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Necalli",
+                "replayId": "4ED4F112C"
+            },
+            {
+                "points": 61,
+                "result": "WIN",
+                "opponent": "Necalli",
+                "replayId": "4ED4F1494"
+            },
+            {
+                "points": 103,
+                "result": "WIN",
+                "opponent": "Akuma",
+                "replayId": "4ED4F1806"
+            },
+            {
+                "points": 117,
+                "result": "WIN",
+                "opponent": "Akuma",
+                "replayId": "4ED4F1C10"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Alex",
+                "replayId": "4ED4F1F23"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Alex",
+                "replayId": "4ED4F227E"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Alex",
+                "replayId": "4ED4F259A"
+            },
+            {
+                "points": 84,
+                "result": "WIN",
+                "opponent": "Luke",
+                "replayId": "4ED4F297F"
+            },
+            {
+                "points": 82,
+                "result": "WIN",
+                "opponent": "Luke",
+                "replayId": "4ED4F2DDE"
+            }
+        ]
+    },
+    {
+        "date": "2023-03-05",
+        "pointsStart": 11516,
+        "pointsEnd": 11324,
+        "matches": [
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Zangief",
+                "replayId": "4ED8917DD"
+            },
+            {
+                "points": 77,
+                "result": "WIN",
+                "opponent": "Zangief",
+                "replayId": "4ED891A51"
+            },
+            {
+                "points": 76,
+                "result": "WIN",
+                "opponent": "Zangief",
+                "replayId": "4ED891D26"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Zangief",
+                "replayId": "4ED891FDB"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Zangief",
+                "replayId": "4ED892242"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Zeku",
+                "replayId": "4ED89253C"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Zeku",
+                "replayId": "4ED8927E1"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Zeku",
+                "replayId": "4ED892A75"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Cody",
+                "replayId": "4ED892DBB"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Cody",
+                "replayId": "4ED893138"
+            },
+            {
+                "points": 87,
+                "result": "LOSS",
+                "opponent": "Guile",
+                "replayId": "4ED89346B"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "4ED893889"
+            },
+            {
+                "points": 87,
+                "result": "LOSS",
+                "opponent": "Guile",
+                "replayId": "4ED893C55"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Oro",
+                "replayId": "4ED893F68"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Oro",
+                "replayId": "4ED89420F"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Oro",
+                "replayId": "4ED894559"
+            },
+            {
+                "points": 77,
+                "result": "WIN",
+                "opponent": "Karin",
+                "replayId": "4ED8947F3"
+            },
+            {
+                "points": 75,
+                "result": "WIN",
+                "opponent": "Karin",
+                "replayId": "4ED894B56"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Vega",
+                "replayId": "4ED894F34"
+            },
+            {
+                "points": 88,
+                "result": "LOSS",
+                "opponent": "Vega",
+                "replayId": "4ED895292"
+            },
+            {
+                "points": 87,
+                "result": "LOSS",
+                "opponent": "Vega",
+                "replayId": "4ED89553D"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Juri",
+                "replayId": "4ED8958B0"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Juri",
+                "replayId": "4ED895CDF"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "4ED895EFB"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "4ED896280"
+            },
+            {
+                "points": 87,
+                "result": "WIN",
+                "opponent": "Juri",
+                "replayId": "4ED89654D"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Juri",
+                "replayId": "4ED89685F"
+            },
+            {
+                "points": 86,
+                "result": "WIN",
+                "opponent": "Juri",
+                "replayId": "4ED896B37"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Nash",
+                "replayId": "4ED896E72"
+            },
+            {
+                "points": 90,
+                "result": "WIN",
+                "opponent": "Nash",
+                "replayId": "4ED897257"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Nash",
+                "replayId": "4ED89745D"
+            },
+            {
+                "points": 87,
+                "result": "LOSS",
+                "opponent": "Cammy",
+                "replayId": "4ED897898"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Cammy",
+                "replayId": "4ED897B2E"
+            },
+            {
+                "points": 87,
+                "result": "LOSS",
+                "opponent": "Cammy",
+                "replayId": "4ED897E09"
+            },
+            {
+                "points": 82,
+                "result": "WIN",
+                "opponent": "Dhalsim",
+                "replayId": "4ED898120"
+            }
+        ]
+    },
+    {
+        "date": "2023-03-07",
+        "pointsStart": 11324,
+        "pointsEnd": 11350,
+        "matches": [
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Birdie",
+                "replayId": "4ED940175"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Birdie",
+                "replayId": "4ED940526"
+            },
+            {
+                "points": 66,
+                "result": "WIN",
+                "opponent": "Zeku",
+                "replayId": "4ED9408F4"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Zeku",
+                "replayId": "4ED940D07"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Zeku",
+                "replayId": "4ED941067"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Nash",
+                "replayId": "4ED941449"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Cody",
+                "replayId": "4ED941770"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Cody",
+                "replayId": "4ED941B0C"
+            },
+            {
+                "points": 69,
+                "result": "WIN",
+                "opponent": "Ryu",
+                "replayId": "4ED941DA3"
+            },
+            {
+                "points": 68,
+                "result": "WIN",
+                "opponent": "Ryu",
+                "replayId": "4ED94219E"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Dan",
+                "replayId": "4ED9424E2"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Dan",
+                "replayId": "4ED942915"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Kolin",
+                "replayId": "4ED942BA2"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Kolin",
+                "replayId": "4ED94300A"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Kolin",
+                "replayId": "4ED9432DB"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Sagat",
+                "replayId": "4ED9435A2"
+            },
+            {
+                "points": 86,
+                "result": "WIN",
+                "opponent": "Sagat",
+                "replayId": "4ED9439AE"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Sagat",
+                "replayId": "4ED943CF5"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Luke",
+                "replayId": "4ED944942"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Luke",
+                "replayId": "4ED944CF3"
+            }
+        ]
+    },
+    {
+        "date": "2023-03-11",
+        "pointsStart": 11350,
+        "pointsEnd": 11563,
+        "matches": [
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Akira",
+                "replayId": "4EDAB3DFB"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Akira",
+                "replayId": "4EDAB4199"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Gill",
+                "replayId": "4EDAB44A4"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Gill",
+                "replayId": "4EDAB492D"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Birdie",
+                "replayId": "4EDAB4FF9"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Birdie",
+                "replayId": "4EDAB539A"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Birdie",
+                "replayId": "4EDAB5620"
+            },
+            {
+                "points": 89,
+                "result": "LOSS",
+                "opponent": "Sagat",
+                "replayId": "4EDAB5936"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Sagat",
+                "replayId": "4EDAB5DBD"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Sagat",
+                "replayId": "4EDAB605F"
+            },
+            {
+                "points": 87,
+                "result": "LOSS",
+                "opponent": "Akira",
+                "replayId": "4EDAB635B"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Akira",
+                "replayId": "4EDAB6716"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Ken",
+                "replayId": "4EDAB6BE8"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Ken",
+                "replayId": "4EDAB6F7B"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Laura",
+                "replayId": "4EDAB7296"
+            },
+            {
+                "points": 89,
+                "result": "WIN",
+                "opponent": "Laura",
+                "replayId": "4EDAB759E"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Laura",
+                "replayId": "4EDAB78AA"
+            },
+            {
+                "points": 89,
+                "result": "LOSS",
+                "opponent": "Ed",
+                "replayId": "4EDAB7C84"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Juri",
+                "replayId": "4EDAB8236"
+            },
+            {
+                "points": 88,
+                "result": "LOSS",
+                "opponent": "Juri",
+                "replayId": "4EDAB86C8"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Juri",
+                "replayId": "4EDAB8A76"
+            },
+            {
+                "points": 87,
+                "result": "LOSS",
+                "opponent": "Vega",
+                "replayId": "4EDAB8D81"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Vega",
+                "replayId": "4EDAB90C5"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Vega",
+                "replayId": "4EDAB9417"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Luke",
+                "replayId": "4EDAB9712"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Luke",
+                "replayId": "4EDAB9B5D"
+            }
+        ]
+    },
+    {
+        "date": "2023-03-12",
+        "pointsStart": 11563,
+        "pointsEnd": 11760,
+        "matches": [
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Sakura",
+                "replayId": "4EDB21FD9"
+            },
+            {
+                "points": 61,
+                "result": "WIN",
+                "opponent": "Falke",
+                "replayId": "4EDB224AE"
+            },
+            {
+                "points": 88,
+                "result": "LOSS",
+                "opponent": "Falke",
+                "replayId": "4EDB228D0"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Falke",
+                "replayId": "4EDB22B22"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Nash",
+                "replayId": "4EDB22F39"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Nash",
+                "replayId": "4EDB23367"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Zeku",
+                "replayId": "4EDB235A2"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Zeku",
+                "replayId": "4EDB238B7"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "4EDB23CB2"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "4EDB240B9"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Ken",
+                "replayId": "4EDB2451A"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Ken",
+                "replayId": "4EDB248C8"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Ken",
+                "replayId": "4EDB24C39"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Birdie",
+                "replayId": "4EDB24EED"
+            }
+        ]
+    },
+    {
+        "date": "2023-03-18",
+        "pointsStart": 11760,
+        "pointsEnd": 11679,
+        "matches": [
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "4EDD52104"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Akuma",
+                "replayId": "4EDD525A6"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Akuma",
+                "replayId": "4EDD52979"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Ryu",
+                "replayId": "4EDD52CFA"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "4EDD53143"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "4EDD533AB"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Gief",
+                "replayId": "4EDD535D3"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Gief",
+                "replayId": "4EDD53A13"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Seth",
+                "replayId": "4EDD53EBD"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Seth",
+                "replayId": "4EDD5427B"
+            },
+            {
+                "points": 74,
+                "result": "WIN",
+                "opponent": "Cammy",
+                "replayId": "4EDD546AE"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Cammy",
+                "replayId": "4EDD549E7"
+            },
+            {
+                "points": 74,
+                "result": "WIN",
+                "opponent": "Cammy",
+                "replayId": "4EDD54C08"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "4EDD55025"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "4EDD553B4"
+            },
+            {
+                "points": 88,
+                "result": "LOSS",
+                "opponent": "Guile",
+                "replayId": "4EDD55891"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "4EDD55D3E"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "4EDD55FC9"
+            },
+            {
+                "points": 88,
+                "result": "LOSS",
+                "opponent": "Rose",
+                "replayId": "4EDD56263"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Rose",
+                "replayId": "4EDD56647"
+            },
+            {
+                "points": 88,
+                "result": "LOSS",
+                "opponent": "Rose",
+                "replayId": "4EDD56995"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Nash",
+                "replayId": "4EDD56E1F"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Nash",
+                "replayId": "4EDD57116"
+            }
+        ]
+    },
+    {
+        "date": "2023-03-19",
+        "pointsStart": 11679,
+        "pointsEnd": 11910,
+        "matches": [
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Balrog",
+                "replayId": "4EDDB489A"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Balrog",
+                "replayId": "4EDDB4C09"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "G",
+                "replayId": "4EDDB4F9D"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "G",
+                "replayId": "4EDDB51FA"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Alex",
+                "replayId": "4EDDB55FD"
+            },
+            {
+                "points": 110,
+                "result": "WIN",
+                "opponent": "Alex",
+                "replayId": "4EDDB58B8"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Alex",
+                "replayId": "4EDDB5B79"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Dhalsim",
+                "replayId": "4EDDB5E85"
+            },
+            {
+                "points": 84,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "4EDDB6129"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Guile",
+                "replayId": "4EDDB658D"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Guile",
+                "replayId": "4EDDB6803"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Ken",
+                "replayId": "4EDDB6BB5"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Ken",
+                "replayId": "4EDDB6F83"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Kage",
+                "replayId": "4EDDB7314"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Kage",
+                "replayId": "4EDDB76B8"
+            },
+            {
+                "points": 87,
+                "result": "LOSS",
+                "opponent": "Ken",
+                "replayId": "4EDDB796D"
+            },
+            {
+                "points": 87,
+                "result": "LOSS",
+                "opponent": "Ken",
+                "replayId": "4EDDB7CF6"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Ed",
+                "replayId": "4EDDB8563"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Ken",
+                "replayId": "4EDDB889A"
+            },
+            {
+                "points": 87,
+                "result": "LOSS",
+                "opponent": "Ken",
+                "replayId": "4EDDB8C66"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Ken",
+                "replayId": "4EDDB8FE4"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Chun-Li",
+                "replayId": "4EDDB939F"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Chun-Li",
+                "replayId": "4EDDB97F3"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Laura",
+                "replayId": "4EDDB9CC3"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Laura",
+                "replayId": "4EDDB9F7D"
+            },
+            {
+                "points": 72,
+                "result": "WIN",
+                "opponent": "Cammy",
+                "replayId": "4EDDBA3A8"
+            },
+            {
+                "points": 84,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "4EDDBA7C2"
+            },
+            {
+                "points": 99,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "4EDDBAB6C"
+            }
+        ]
+    },
+    {
+        "date": "2023-03-26",
+        "pointsStart": 11910,
+        "pointsEnd": 12070,
+        "matches": [
+            {
+                "points": 118,
+                "result": "WIN",
+                "opponent": "Ryu",
+                "replayId": "4EE046DC9"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "4EE0470E9"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Ryu",
+                "replayId": "4EE047379"
+            },
+            {
+                "points": 78,
+                "result": "WIN",
+                "opponent": "Gill",
+                "replayId": "4EE0475EB"
+            },
+            {
+                "points": 77,
+                "result": "WIN",
+                "opponent": "Gill",
+                "replayId": "4EE0478CA"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Bison",
+                "replayId": "4EE0491B1"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Bison",
+                "replayId": "4EE049487"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Alex",
+                "replayId": "4EE04ACBD"
+            },
+            {
+                "points": 135,
+                "result": "WIN",
+                "opponent": "Alex",
+                "replayId": "4EE04AFD7"
+            },
+            {
+                "points": 115,
+                "result": "WIN",
+                "opponent": "Alex",
+                "replayId": "4EE04B1A5"
+            },
+            {
+                "points": 83,
+                "result": "WIN",
+                "opponent": "Bison",
+                "replayId": "4EE04BD17"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Bison",
+                "replayId": "4EE04BFD5"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Bison",
+                "replayId": "4EE04C357"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Chun-Li",
+                "replayId": "4EE04C65F"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Chun-Li",
+                "replayId": "4EE04C953"
+            }
+        ]
+    },
+    {
+        "date": "2023-04-01",
+        "pointsStart": 12070,
+        "pointsEnd": 12143,
+        "matches": [
+            {
+                "points": 115,
+                "result": "WIN",
+                "opponent": "Zangief",
+                "replayId": "4EE25F0E0"
+            },
+            {
+                "points": 115,
+                "result": "WIN",
+                "opponent": "Zangief",
+                "replayId": "4EE25F52A"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Ken",
+                "replayId": "4EE25F856"
+            },
+            {
+                "points": 115,
+                "result": "WIN",
+                "opponent": "Ken",
+                "replayId": "4EE25FC59"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Ken",
+                "replayId": "4EE25FED5"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Rose",
+                "replayId": "4EE2601C1"
+            },
+            {
+                "points": 107,
+                "result": "WIN",
+                "opponent": "Rose",
+                "replayId": "4EE260507"
+            },
+            {
+                "points": 105,
+                "result": "WIN",
+                "opponent": "Rose",
+                "replayId": "4EE26083C"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Urien",
+                "replayId": "4EE260B99"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Urien",
+                "replayId": "4EE26105B"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "4EE2613DE"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "4EE2616BE"
+            },
+            {
+                "points": 80,
+                "result": "WIN",
+                "opponent": "Zangief",
+                "replayId": "4EE261B40"
+            },
+            {
+                "points": 79,
+                "result": "WIN",
+                "opponent": "Zangief",
+                "replayId": "4EE261EB4"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Birdie",
+                "replayId": "4EE26228C"
+            },
+            {
+                "points": 87,
+                "result": "WIN",
+                "opponent": "Birdie",
+                "replayId": "4EE26261B"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Birdie",
+                "replayId": "4EE2629CB"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Dhalsim",
+                "replayId": "4EE262E07"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Cammy",
+                "replayId": "4EE263203"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Cammy",
+                "replayId": "4EE2634F5"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Sakura",
+                "replayId": "4EE263810"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Sakura",
+                "replayId": "4EE263B35"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Sagat",
+                "replayId": "4EE263E61"
+            },
+            {
+                "points": 115,
+                "result": "WIN",
+                "opponent": "Sagat",
+                "replayId": "4EE264280"
+            }
+        ]
+    },
+    {
+        "date": "2023-04-04",
+        "pointsStart": 12143,
+        "pointsEnd": 12110,
+        "matches": [
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "4EE3806A6"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Alex",
+                "replayId": "4EE380A65"
+            },
+            {
+                "points": 82,
+                "result": "WIN",
+                "opponent": "Alex",
+                "replayId": "4EE380E3A"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Chun-Li",
+                "replayId": "4EE3811BD"
+            },
+            {
+                "points": 115,
+                "result": "WIN",
+                "opponent": "Chun-Li",
+                "replayId": "4EE3814BF"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Chun-Li",
+                "replayId": "4EE38183C"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Bison",
+                "replayId": "4EE381AA3"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Bison",
+                "replayId": "4EE381D6C"
+            }
+        ]
+    },
+    {
+        "date": "2023-04-05",
+        "pointsStart": 12110,
+        "pointsEnd": 12471,
+        "matches": [
+            {
+                "points": 115,
+                "result": "WIN",
+                "opponent": "Balrog",
+                "replayId": "4EE3D2476"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Balrog",
+                "replayId": "4EE3D27FF"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Balrog",
+                "replayId": "4EE3D2A08"
+            },
+            {
+                "points": 67,
+                "result": "WIN",
+                "opponent": "Cammy",
+                "replayId": "4EE3D2DD7"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Cammy",
+                "replayId": "4EE3D313F"
+            },
+            {
+                "points": 67,
+                "result": "WIN",
+                "opponent": "Cammy",
+                "replayId": "4EE3D3409"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "4EE3D37E3"
+            },
+            {
+                "points": 83,
+                "result": "WIN",
+                "opponent": "Ryu",
+                "replayId": "4EE3D3B43"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "4EE3D3E57"
+            },
+            {
+                "points": 74,
+                "result": "WIN",
+                "opponent": "Ed",
+                "replayId": "4EE3D4045"
+            },
+            {
+                "points": 71,
+                "result": "WIN",
+                "opponent": "Ed",
+                "replayId": "4EE3D4417"
+            },
+            {
+                "points": 78,
+                "result": "WIN",
+                "opponent": "Ken",
+                "replayId": "4EE3D4786"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Zangief",
+                "replayId": "4EE3D4BE7"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Zangief",
+                "replayId": "4EE3D4F5E"
+            }
+        ]
+    },
+    {
+        "date": "2023-04-08",
+        "pointsStart": 12471,
+        "pointsEnd": 12885,
+        "matches": [
+            {
+                "points": 88,
+                "result": "WIN",
+                "opponent": "Ken",
+                "replayId": "4EE5067F8"
+            },
+            {
+                "points": 99,
+                "result": "WIN",
+                "opponent": "Ken",
+                "replayId": "4EE506C4A"
+            },
+            {
+                "points": 84,
+                "result": "WIN",
+                "opponent": "Ken",
+                "replayId": "4EE506F51"
+            },
+            {
+                "points": 100,
+                "result": "WIN",
+                "opponent": "Ken",
+                "replayId": "4EE50733A"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Luke",
+                "replayId": "4EE50830F"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Luke",
+                "replayId": "4EE508664"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Luke",
+                "replayId": "4EE50897E"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "4EE508D85"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "4EE509102"
+            }
+        ]
+    },
+    {
+        "date": "2023-04-14",
+        "pointsStart": 12885,
+        "pointsEnd": 12092,
+        "matches": [
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Urien",
+                "replayId": "4EE76666F"
+            },
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Urien",
+                "replayId": "4EE766BEB"
+            },
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Urien",
+                "replayId": "4EE766DF7"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Juri",
+                "replayId": "4EE7673B7"
+            },
+            {
+                "points": 73,
+                "result": "WIN",
+                "opponent": "Juri",
+                "replayId": "4EE7677B3"
+            },
+            {
+                "points": 71,
+                "result": "WIN",
+                "opponent": "Juri",
+                "replayId": "4EE767C54"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Ken",
+                "replayId": "4EE767F87"
+            },
+            {
+                "points": 75,
+                "result": "WIN",
+                "opponent": "Ken",
+                "replayId": "4EE76830B"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Zangief",
+                "replayId": "4EE768ABF"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Zangief",
+                "replayId": "4EE76907E"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Zangief",
+                "replayId": "4EE76934B"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Gill",
+                "replayId": "4EE76987C"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Gill",
+                "replayId": "4EE769CC6"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Gill",
+                "replayId": "4EE76A0BF"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Urien",
+                "replayId": "4EE76A35C"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Urien",
+                "replayId": "4EE76A821"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "4EE76AD2B"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "4EE76B227"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Kolin",
+                "replayId": "4EE76B69C"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Kolin",
+                "replayId": "4EE76BA8E"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Ed",
+                "replayId": "4EE76BF1E"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Ed",
+                "replayId": "4EE76C4BE"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Ed",
+                "replayId": "4EE76C7B0"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Balrog",
+                "replayId": "4EE76CB9F"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Balrog",
+                "replayId": "4EE76CF4B"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Bison",
+                "replayId": "4EE76D357"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Bison",
+                "replayId": "4EE76D781"
+            }
+        ]
+    },
+    {
+        "date": "2023-04-15",
+        "pointsStart": 12092,
+        "pointsEnd": 12262,
+        "matches": [
+            {
+                "points": 115,
+                "result": "WIN",
+                "opponent": "Akuma",
+                "replayId": "4EE7D7463"
+            },
+            {
+                "points": 115,
+                "result": "WIN",
+                "opponent": "Akuma",
+                "replayId": "4EE7D778F"
+            },
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Kage",
+                "replayId": "4EE7D7B53"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Kage",
+                "replayId": "4EE7D7FD3"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Lucia",
+                "replayId": "4EE7D843D"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Lucia",
+                "replayId": "4EE7D87AF"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Lucia",
+                "replayId": "4EE7D89DF"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Laura",
+                "replayId": "4EE7D8D08"
+            },
+            {
+                "points": 79,
+                "result": "WIN",
+                "opponent": "Laura",
+                "replayId": "4EE7D911D"
+            },
+            {
+                "points": 83,
+                "result": "WIN",
+                "opponent": "Kage",
+                "replayId": "4EE7D9537"
+            },
+            {
+                "points": 81,
+                "result": "WIN",
+                "opponent": "Kage",
+                "replayId": "4EE7D984B"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Luke",
+                "replayId": "4EE7D9E2C"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Luke",
+                "replayId": "4EE7DA136"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Luke",
+                "replayId": "4EE7DA364"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Chun-Li",
+                "replayId": "4EE7DA76B"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Chun-Li",
+                "replayId": "4EE7DAB0D"
+            },
+            {
+                "points": 104,
+                "result": "WIN",
+                "opponent": "Balrog",
+                "replayId": "4EE7DAE38"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Balrog",
+                "replayId": "4EE7DB206"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Urien",
+                "replayId": "4EE7DB4DE"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Ken",
+                "replayId": "4EE7DB931"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Necalli",
+                "replayId": "4EE7DBEDE"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Necalli",
+                "replayId": "4EE7DC203"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Chun-Li",
+                "replayId": "4EE7DC676"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Chun-Li",
+                "replayId": "4EE7DCB05"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Chun-Li",
+                "replayId": "4EE7DCDB9"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Lucia",
+                "replayId": "4EE7DD05C"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Lucia",
+                "replayId": "4EE7DD4B1"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Bison",
+                "replayId": "4EE7DD7A9"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Bison",
+                "replayId": "4EE7DDBCA"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Kage",
+                "replayId": "4EE7DE0DC"
+            },
+            {
+                "points": 91,
+                "result": "WIN",
+                "opponent": "Kage",
+                "replayId": "4EE7DE62B"
+            },
+            {
+                "points": 89,
+                "result": "WIN",
+                "opponent": "Kage",
+                "replayId": "4EE7DE896"
+            }
+        ]
+    },
+    {
+        "date": "2023-04-16",
+        "pointsStart": 12262,
+        "pointsEnd": 12549,
+        "matches": [
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Nash",
+                "replayId": "4EE858F13"
+            },
+            {
+                "points": 81,
+                "result": "WIN",
+                "opponent": "Ryu",
+                "replayId": "4EE859419"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Chun-Li",
+                "replayId": "4EE85995D"
+            },
+            {
+                "points": 61,
+                "result": "WIN",
+                "opponent": "Chun-Li",
+                "replayId": "4EE859D52"
+            },
+            {
+                "points": 71,
+                "result": "WIN",
+                "opponent": "Urien",
+                "replayId": "4EE859F26"
+            },
+            {
+                "points": 84,
+                "result": "WIN",
+                "opponent": "Urien",
+                "replayId": "4EE85A34E"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Necalli",
+                "replayId": "4EE85A6AB"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Necalli",
+                "replayId": "4EE85AA18"
+            },
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Mika",
+                "replayId": "4EE85AE26"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Mika",
+                "replayId": "4EE85B1BE"
+            },
+            {
+                "points": 70,
+                "result": "WIN",
+                "opponent": "Nash",
+                "replayId": "4EE85B41B"
+            },
+            {
+                "points": 69,
+                "result": "WIN",
+                "opponent": "Nash",
+                "replayId": "4EE85B762"
+            }
+        ]
+    },
+    {
+        "date": "2023-04-17",
+        "pointsStart": 12549,
+        "pointsEnd": 13036,
+        "matches": [
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Urien",
+                "replayId": "4EE8C0E61"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Abigail",
+                "replayId": "4EE8C12E3"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Abigail",
+                "replayId": "4EE8C1560"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Abigail",
+                "replayId": "4EE8C1852"
+            },
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Nash",
+                "replayId": "4EE8C1B55"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Nash",
+                "replayId": "4EE8C1EF7"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Nash",
+                "replayId": "4EE8C2111"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Zangief",
+                "replayId": "4EE8C239D"
+            },
+            {
+                "points": 68,
+                "result": "WIN",
+                "opponent": "Necalli",
+                "replayId": "4EE8C28E3"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Necalli",
+                "replayId": "4EE8C2B77"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Necalli",
+                "replayId": "4EE8C2E6F"
+            },
+            {
+                "points": 115,
+                "result": "WIN",
+                "opponent": "Cammy",
+                "replayId": "4EE8C3195"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Sagat",
+                "replayId": "4EE8C3451"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Sagat",
+                "replayId": "4EE8C385E"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Sagat",
+                "replayId": "4EE8C3B94"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Guile",
+                "replayId": "4EE8C3EB4"
+            },
+            {
+                "points": 115,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "4EE8C4106"
+            },
+            {
+                "points": 115,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "4EE8C445E"
+            }
+        ]
+    },
+    {
+        "date": "2023-04-23",
+        "pointsStart": 13036,
+        "pointsEnd": 13236,
+        "matches": [
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Luke",
+                "replayId": "4EEB30358"
+            },
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Luke",
+                "replayId": " 4EEB306E1"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Seth",
+                "replayId": "4EEB30B14"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Seth",
+                "replayId": "4EEB30EAC"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Zangief",
+                "replayId": "4EEB31213"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Zangief",
+                "replayId": "4EEB31529"
+            },
+            {
+                "points": 86,
+                "result": "WIN",
+                "opponent": "Luke",
+                "replayId": "4EEB3173E"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Luke",
+                "replayId": "4EEB31AA2"
+            },
+            {
+                "points": 85,
+                "result": "WIN",
+                "opponent": "Luke",
+                "replayId": "4EEB31CD5"
+            }
+        ]
+    },
+    {
+        "date": "2023-04-24",
+        "pointsStart": 13236,
+        "pointsEnd": 13143,
+        "matches": [
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Seth",
+                "replayId": "4EEB8B288"
+            },
+            {
+                "points": 115,
+                "result": "WIN",
+                "opponent": "Seth",
+                "replayId": "4EEB8B506"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Seth",
+                "replayId": "4EEB8B718"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Falke",
+                "replayId": "4EEB8B97D"
+            },
+            {
+                "points": 95,
+                "result": "WIN",
+                "opponent": "Ken",
+                "replayId": "4EEB8BCEC"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Ken",
+                "replayId": "4EEB8C03D"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Ken",
+                "replayId": "4EEB8C24F"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Alex",
+                "replayId": "4EEB8C533"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Alex",
+                "replayId": "4EEB8C786"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Ed",
+                "replayId": "4EEB8CC37"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Ed",
+                "replayId": "4EEB8CEA0"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Dhalsim",
+                "replayId": "4EEB8D0D8"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Sagat",
+                "replayId": "4EEB8D39E"
+            },
+            {
+                "points": 69,
+                "result": "LOSS",
+                "opponent": "Sagat",
+                "replayId": "4EEB8D70A"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Sagat",
+                "replayId": "4EEB8D90B"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Seth",
+                "replayId": "4EEB8DBBC"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Seth",
+                "replayId": "4EEB8DE0D"
+            },
+            {
+                "points": 104,
+                "result": "WIN",
+                "opponent": "Ken",
+                "replayId": "4EEB8E01D"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Ken",
+                "replayId": "4EEB8E344"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Akuma",
+                "replayId": "4EEB8E77A"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Ed",
+                "replayId": "4EEB8EB5B"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Ed",
+                "replayId": "4EEB8EEFC"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Ed",
+                "replayId": "4EEB8F132"
+            },
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Kolin",
+                "replayId": "4EEB8F3AB"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Kolin",
+                "replayId": "4EEB8F6D3"
+            },
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Kolin",
+                "replayId": "4EEB8F8A1"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Juri",
+                "replayId": "4EEB8FBAB"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "4EEB8FF8A"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "4EEB90390"
+            }
+        ]
+    },
+    {
+        "date": "2023-04-25",
+        "pointsStart": 13143,
+        "pointsEnd": 13111,
+        "matches": [
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Nash",
+                "replayId": "4EEBE843A"
+            },
+            {
+                "points": 74,
+                "result": "WIN",
+                "opponent": "Bison",
+                "replayId": "4EEBE876D"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Bison",
+                "replayId": "4EEBE8A23"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Bison",
+                "replayId": "4EEBE8BD8"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Sagat",
+                "replayId": "4EEBE8E14"
+            },
+            {
+                "points": 105,
+                "result": "WIN",
+                "opponent": "Kolin",
+                "replayId": "4EEBE91C1"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Kolin",
+                "replayId": "4EEBE9416"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Kolin",
+                "replayId": "4EEBE9788"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Nash",
+                "replayId": "4EEBE99DD"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Gill",
+                "replayId": "4EEBE9D88"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Oro",
+                "replayId": "4EEBEA28A"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Oro",
+                "replayId": "4EEBEA4E9"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Bison",
+                "replayId": "4EEBEA8D1"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Bison",
+                "replayId": "4EEBEACAF"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Cody",
+                "replayId": "RQ"
+            },
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Abigail",
+                "replayId": "4EEBF6D18"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Abigail",
+                "replayId": "4EEBF70D0"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Abigail",
+                "replayId": "4EEBF7319"
+            },
+            {
+                "points": 107,
+                "result": "WIN",
+                "opponent": "Ryu",
+                "replayId": "4EEBF76D3"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "4EEBF79DE"
+            },
+            {
+                "points": 107,
+                "result": "WIN",
+                "opponent": "Ryu",
+                "replayId": "4EEBF7BBB"
+            },
+            {
+                "points": 97,
+                "result": "WIN",
+                "opponent": "Chun-Li",
+                "replayId": "4EEBF7F72"
+            },
+            {
+                "points": 95,
+                "result": "WIN",
+                "opponent": "Chun-Li",
+                "replayId": "4EEBF82D2"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Ken",
+                "replayId": "4EEBF857D"
+            },
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Ed",
+                "replayId": "4EEBF8A01"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Ed",
+                "replayId": "4EEBF8DD2"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Ed",
+                "replayId": "4EEBF8F62"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Balrog",
+                "replayId": "4EEBF91CF"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Balrog",
+                "replayId": "4EEBF9477"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Vega",
+                "replayId": "4EEBF97B4"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Vega",
+                "replayId": "4EEBF9B5A"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Abigail",
+                "replayId": "4EEBF9D75"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Abigail",
+                "replayId": "4EEBFA09F"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Abigail",
+                "replayId": "4EEBFA2A8"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Karin",
+                "replayId": "4EEBFA691"
+            },
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Karin",
+                "replayId": "4EEBFA9F5"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Karin",
+                "replayId": "4EEBFAC68"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Zangief",
+                "replayId": "4EEBFAE95"
+            },
+            {
+                "points": 68,
+                "result": "WIN",
+                "opponent": "Zangief",
+                "replayId": "4EEBFB1D1"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Zangief",
+                "replayId": "4EEBFB399"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Balrog",
+                "replayId": "4EEBFB799"
+            },
+            {
+                "points": 115,
+                "result": "WIN",
+                "opponent": "Balrog",
+                "replayId": "4EEBFB9DD"
+            },
+            {
+                "points": 115,
+                "result": "WIN",
+                "opponent": "Balrog",
+                "replayId": "4EEBFBC7A"
+            }
+        ]
+    },
+    {
+        "date": "2023-04-26",
+        "pointsStart": 13111,
+        "pointsEnd": 13311,
+        "matches": [
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Laura",
+                "replayId": "4EEC3E4B3"
+            },
+            {
+                "points": 74,
+                "result": "WIN",
+                "opponent": "Laura",
+                "replayId": "4EEC3E73E"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Laura",
+                "replayId": "4EEC3E98F"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Laura",
+                "replayId": "4EEC3EC87"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Laura",
+                "replayId": "4EEC3EE60"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Guile",
+                "replayId": "4EEC3F04A"
+            },
+            {
+                "points": 100,
+                "result": "WIN",
+                "opponent": "Ryu",
+                "replayId": "4EEC3F3FF"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "4EEC3F62A"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Ryu",
+                "replayId": "4EEC3F783"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Zangief",
+                "replayId": "4EEC3FB32"
+            },
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Zangief",
+                "replayId": "4EEC3FD24"
+            },
+            {
+                "points": 68,
+                "result": "LOSS",
+                "opponent": "Zangief",
+                "replayId": "4EEC3FEC0"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Honda",
+                "replayId": "4EEC400C6"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Honda",
+                "replayId": "4EEC402CD"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Honda",
+                "replayId": "4EEC404C9"
+            },
+            {
+                "points": 76,
+                "result": "WIN",
+                "opponent": "Ed",
+                "replayId": "4EEC4065E"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Ed",
+                "replayId": "4EEC408F9"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Balrog",
+                "replayId": "4EEC40BBA"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Balrog",
+                "replayId": "4EEC40E0F"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Balrog",
+                "replayId": "4EEC410AD"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Balrog",
+                "replayId": "4EEC41323"
+            },
+            {
+                "points": 115,
+                "result": "WIN",
+                "opponent": "Balrog",
+                "replayId": "4EEC414F9"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Balrog",
+                "replayId": "4EEC4176C"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Lucia",
+                "replayId": "4EEC41A4D"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Lucia",
+                "replayId": "4EEC41D66"
+            },
+            {
+                "points": 75,
+                "result": "WIN",
+                "opponent": "Ken",
+                "replayId": "4EEC42000"
+            },
+            {
+                "points": 73,
+                "result": "WIN",
+                "opponent": "Ken",
+                "replayId": "4EEC42225"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "G",
+                "replayId": "4EEC423F7"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "G",
+                "replayId": "4EEC426DE"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Vega",
+                "replayId": "4EEC428BA"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Vega",
+                "replayId": "4EEC42B8B"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Vega",
+                "replayId": "4EEC42D06"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Ed",
+                "replayId": "4EEC42F0C"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Ed",
+                "replayId": "4EEC431E5"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Zangief",
+                "replayId": "4EEC4346E"
+            },
+            {
+                "points": 65,
+                "result": "LOSS",
+                "opponent": "Zangief",
+                "replayId": "4EEC43883"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "G",
+                "replayId": "4EEC43B8E"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "G",
+                "replayId": "4EEC43E6B"
+            },
+            {
+                "points": 85,
+                "result": "WIN",
+                "opponent": "Nash",
+                "replayId": "4EEC440F9"
+            },
+            {
+                "points": 55,
+                "result": "LOSS",
+                "opponent": "Nash",
+                "replayId": "4EEC4444A"
+            },
+            {
+                "points": 84,
+                "result": "WIN",
+                "opponent": "Nash",
+                "replayId": "4EEC446A2"
+            },
+            {
+                "points": 115,
+                "result": "WIN",
+                "opponent": "Honda",
+                "replayId": "4EEC44D2B"
+            },
+            {
+                "points": 115,
+                "result": "WIN",
+                "opponent": "Honda",
+                "replayId": "4EEC44FBF"
+            }
+        ]
+    },
+    {
+        "date": "2023-04-27",
+        "pointsStart": 13311,
+        "pointsEnd": 13846,
+        "matches": [
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Seth",
+                "replayId": "4EEC9D890"
+            },
+            {
+                "points": 66,
+                "result": "WIN",
+                "opponent": "Seth",
+                "replayId": "4EEC9DAD4"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Seth",
+                "replayId": "4EEC9DC76"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Zeku",
+                "replayId": "4EEC9DFEA"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Ken",
+                "replayId": "4EEC9E3CC"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Ken",
+                "replayId": "4EEC9E640"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Ryu",
+                "replayId": "4EEC9E9FF"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Ryu",
+                "replayId": "4EEC9ED82"
+            },
+            {
+                "points": 73,
+                "result": "WIN",
+                "opponent": "Akuma",
+                "replayId": "4EEC9F069"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Akuma",
+                "replayId": "4EEC9F2F2"
+            },
+            {
+                "points": 66,
+                "result": "WIN",
+                "opponent": "Akuma",
+                "replayId": "4EEC9F5FA"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Akuma",
+                "replayId": "4EEC9F816"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Akuma",
+                "replayId": "4EEC9FA4B"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "G",
+                "replayId": "4EEC9FD47"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "G",
+                "replayId": "4EEC9FF95"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Rashid",
+                "replayId": "4EECA0203"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Rashid",
+                "replayId": "4EECA05DD"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Vega",
+                "replayId": "4EECA08BA"
+            },
+            {
+                "points": 55,
+                "result": "WIN",
+                "opponent": "Vega",
+                "replayId": "4EECA0B0D"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Juri",
+                "replayId": "4EECA0E78"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Juri",
+                "replayId": "4EECA1121"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Juri",
+                "replayId": "4EECA12BC"
+            },
+            {
+                "points": 115,
+                "result": "WIN",
+                "opponent": "Ryu",
+                "replayId": "4EECA1561"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Poison",
+                "replayId": "4EECA18B3"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Poison",
+                "replayId": "4EECA1C8E"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Poison",
+                "replayId": "4EECA1EC7"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Seth",
+                "replayId": "4EECA2091"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Seth",
+                "replayId": "4EECA2397"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Seth",
+                "replayId": "4EECA26237"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "G",
+                "replayId": "4EECA28AD"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "G",
+                "replayId": "4EECA2BF6"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "G",
+                "replayId": "4EECA2E6A"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Zangief",
+                "replayId": "4EECA3291"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Zangief",
+                "replayId": "4EECA35C1"
+            },
+            {
+                "points": 66,
+                "result": "LOSS",
+                "opponent": "Zangief",
+                "replayId": "4EECA37D1"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Abigail",
+                "replayId": "4EECA3A07"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Honda",
+                "replayId": "4EECA3EE8"
+            },
+            {
+                "points": 67,
+                "result": "LOSS",
+                "opponent": "Honda",
+                "replayId": "4EECA4129"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Honda",
+                "replayId": "4EECA4325"
+            }
+        ]
+    },
+    {
+        "date": "2023-04-29",
+        "pointsStart": 13846,
+        "pointsEnd": 14041,
+        "matches": [
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Nash",
+                "replayId": "4EED6721F"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Nash",
+                "replayId": "4EED67620"
+            },
+            {
+                "points": 65,
+                "result": "WIN",
+                "opponent": "Laura",
+                "replayId": "4EED679B0"
+            }
+        ]
+    }
+]
