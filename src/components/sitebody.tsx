@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { RankedVisualizationType } from '../models/RankedVisualizationType';
-import RankedDataVisualization from './rankeddatavisualization';
+import RankedDataVisualizationFactory from './rankeddatavisualization';
 
 const SiteBody = () => {
     const [rankedVisualizationType, setRankedVisualizationType] = useState<RankedVisualizationType>(RankedVisualizationType.PerSession);
@@ -34,7 +34,7 @@ const SiteBody = () => {
 
             <div className='row'>
                 <div className='col'>
-                    <RankedDataVisualization rankedDataType={rankedVisualizationType} />
+                    <RankedDataVisualizationFactory rankedDataType={rankedVisualizationType} />
                 </div>
             </div>
         </div>

@@ -1,8 +1,8 @@
-import { IRankedMatch } from "./RankedMatch";
+import RankedMatch from "./RankedMatch";
 
-export interface IRankedSession {
+export default class RankedSession {
     date: string;
     pointsStart: number;
     pointsEnd: number;
-    matches: IRankedMatch[];
+    matches: RankedMatch[];
 }
