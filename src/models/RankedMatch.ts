@@ -1,4 +1,5 @@
 export default class RankedMatch {
+    number: number;
     points: number;
     result: string;
     opponent: string;
