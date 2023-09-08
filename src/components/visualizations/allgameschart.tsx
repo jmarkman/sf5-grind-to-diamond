@@ -1,12 +1,17 @@
-import React from 'react';
-import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, ChartData, ChartOptions } from 'chart.js';
+import React, { useRef } from 'react';
+import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, ChartData, ChartOptions, Chart } from 'chart.js';
 import zoomPlugin from 'chartjs-plugin-zoom';
 import RankedSession from '../../models/RankedSession';
 import VisualizationProps from '../../models/VisualizationProps';
 import { Line } from 'react-chartjs-2';
 import RankedMatch from '../../models/RankedMatch';
+import { ChartJSOrUndefined } from 'react-chartjs-2/dist/types';
 
 const AllGamesChart = (props: VisualizationProps) => {
+    // The third type here is defined as unknown as the third typing of a chart in Chart.js is
+    // the TLabel type (I believe this is the type used for labeling the chart data, commonly string)
+    const chartRef = useRef<ChartJSOrUndefined<"line", RankedMatch[], unknown> | null>(null);
+    
     ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, zoomPlugin);
     
     let rankedData: RankedSession[] = props.data;
@@ -23,6 +28,19 @@ const AllGamesChart = (props: VisualizationProps) => {
                 display: true,
                 text: 'LP Delta For All Ranked Games'
             },
+            zoom: {
+                pan: {
+                    enabled: true,
+                    mode: 'x',
+                    modifierKey: 'ctrl'
+                },
+                zoom: {
+                    drag: {
+                        enabled: true
+                    },
+                    mode: 'x'
+                }
+            }
         }
     };
   
@@ -40,7 +58,18 @@ const AllGamesChart = (props: VisualizationProps) => {
         }]
     };
 
-    return <Line options={chartOptions} data={lineChartData} />
+    const handleResetZoom = () => {
+        if (chartRef && chartRef.current) {
+            chartRef.current.resetZoom();
+        }
+    };
+
+    return (
+        <>
+            <Line ref={chartRef} options={chartOptions} data={lineChartData} />
+            <button onClick={handleResetZoom}>Reset Zoom</button>
+        </>
+    );
 };
 
 /**
