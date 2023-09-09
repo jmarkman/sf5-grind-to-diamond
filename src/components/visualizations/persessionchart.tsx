@@ -34,7 +34,10 @@ const PerSessionChart = (props: VisualizationProps) => {
                     yAxisKey: 'pointsEnd'
                 },
                 borderColor: 'rgb(255, 99, 132)',
-                backgroundColor: 'rgba(255, 99, 132, 0.5)'
+                backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                datalabels: {
+                    display: false
+                }
             }
         ]
     };

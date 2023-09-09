@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, ChartData, ChartOptions, Chart } from 'chart.js';
+import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, ChartData, ChartOptions } from 'chart.js';
 import zoomPlugin from 'chartjs-plugin-zoom';
 import RankedSession from '../../models/RankedSession';
 import VisualizationProps from '../../models/VisualizationProps';
@@ -54,7 +54,10 @@ const AllGamesChart = (props: VisualizationProps) => {
                 yAxisKey: 'points'
             },
             borderColor: 'rgb(255, 99, 132)',
-            backgroundColor: 'rgba(255, 99, 132, 0.5)'
+            backgroundColor: 'rgba(255, 99, 132, 0.5)',
+            datalabels: {
+                display: false
+            }
         }]
     };
 

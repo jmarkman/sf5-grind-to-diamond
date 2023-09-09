@@ -50,6 +50,9 @@ const CharacterFrequencyChart = (props: VisualizationProps) => {
             borderColor: [
               'rgba(54, 162, 235, 1)'
             ],
+            datalabels: {
+              display: false
+            },
             borderWidth: 1
           },
         ],
