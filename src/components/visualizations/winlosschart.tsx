@@ -6,6 +6,7 @@ import RankedMatch from "../../models/RankedMatch";
 import { Pie } from "react-chartjs-2";
 import ChartDataLabels from "chartjs-plugin-datalabels";
 
+
 const WinLossChart = (props: VisualizationProps) => {
     ChartJS.register(ArcElement, Tooltip, Legend, ChartDataLabels);
 
@@ -16,7 +17,7 @@ const WinLossChart = (props: VisualizationProps) => {
         responsive: true,
         plugins: {
             legend: {
-                position: 'left' as const,
+                position: 'top' as const,
             },
             title: {
                 display: true,
@@ -33,7 +34,7 @@ const WinLossChart = (props: VisualizationProps) => {
         labels: ['Loss', 'Win'],
         datasets: [
           {
-            label: '# of Users',
+            label: 'Total',
             data: [totalLosses, totalWins],
             backgroundColor: [
               'rgba(255, 99, 132, 0.2)',
@@ -64,7 +65,9 @@ const WinLossChart = (props: VisualizationProps) => {
         }],
       };
       
-    return <Pie options={chartOptions} data={pieChartData} />
+    return (
+        <Pie options={chartOptions} data={pieChartData} />
+    );
 };
 
 export default WinLossChart;

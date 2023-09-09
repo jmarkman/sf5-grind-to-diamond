@@ -1,0 +1,11 @@
+.responsiveChart {
+    position: relative;
+    margin: auto;
+    width: 50vw;
+}
+
+.responsivePieChart {
+    position: relative;
+    margin: auto;
+    width: 30vw;
+}

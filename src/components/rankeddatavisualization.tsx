@@ -5,6 +5,7 @@ import PerSessionChart from './visualizations/persessionchart';
 import AllGamesChart from './visualizations/allgameschart';
 import WinLossChart from './visualizations/winlosschart';
 import CharacterFrequencyChart from './visualizations/characterfrequencychart';
+import "../css/chart.css";
 
 interface RankedDataVisualizationProps {
     rankedDataType: RankedVisualizationType;
@@ -15,13 +16,29 @@ const RankedDataVisualizationFactory = (props: RankedDataVisualizationProps) => 
 
     switch (props.rankedDataType) {
         case RankedVisualizationType.PerSession:
-            return <PerSessionChart data={rankedData} />;
+            return (
+                <div className='responsiveChart'>
+                    <PerSessionChart data={rankedData} />
+                </div>
+            );
         case RankedVisualizationType.AllGames:
-            return <AllGamesChart data={rankedData} />;
+            return (
+                <div className='responsiveChart'>
+                    <AllGamesChart data={rankedData} />
+                </div>
+            );
         case RankedVisualizationType.WinLoss:
-            return <WinLossChart data={rankedData} />;
+            return (
+                <div className='responsivePieChart'>
+                    <WinLossChart data={rankedData} />
+                </div>
+            );
         case RankedVisualizationType.CharFreq:
-            return <CharacterFrequencyChart data={rankedData} />;
+            return (
+                <div className='responsiveChart'>
+                    <CharacterFrequencyChart data={rankedData} />
+                </div>
+            );
         default:
             return <></>;
     }
