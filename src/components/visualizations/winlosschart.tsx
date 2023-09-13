@@ -66,7 +66,11 @@ const WinLossChart = (props: VisualizationProps) => {
       };
       
     return (
+      <div>
+        <p>This is my win-loss ratio for all the games I played during my ranked grind.</p>
+        <p>In total, I played {allMatches.length} games; {totalWins} were wins and {totalLosses} were losses.</p>
         <Pie options={chartOptions} data={pieChartData} />
+      </div>
     );
 };
 

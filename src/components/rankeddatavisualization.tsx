@@ -1,5 +1,5 @@
 import { RankedVisualizationType } from '../models/RankedVisualizationType';
-import rankedJson from '../data/ranked-data.json'
+import rankedJson from '../content/data/ranked-data.json'
 import RankedSession from '../models/RankedSession';
 import PerSessionChart from './visualizations/persessionchart';
 import AllGamesChart from './visualizations/allgameschart';

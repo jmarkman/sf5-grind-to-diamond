@@ -69,6 +69,10 @@ const AllGamesChart = (props: VisualizationProps) => {
 
     return (
         <>
+            <p>The "All Games" chart is a bit more interactive! In total, I played {allMatches.length} games, so there are a LOT of points on the chart.</p>
+            <p>To see a subsection of the games I played, click and drag on a given region of the chart. The chart will then zoom in on that section.</p>
+            <p>You can hover over each point to see some metadata about the game played, and you can move the chart left and right by holding the <code>control</code> button on your keyboard and click-and-dragging with your mouse.</p>
+            <p>To see the whole graph in its entirety, click the "Reset Zoom" button.</p>
             <Line ref={chartRef} options={chartOptions} data={lineChartData} />
             <button onClick={handleResetZoom}>Reset Zoom</button>
         </>

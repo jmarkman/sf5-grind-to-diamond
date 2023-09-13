@@ -42,7 +42,16 @@ const PerSessionChart = (props: VisualizationProps) => {
         ]
     };
 
-    return <Line options={chartOptions} data={lineChartData} />
+    return (
+        <div>
+            <p>When I first made the resolution to get to diamond before SF6 dropped, I said that I was going to try to play every day.</p>
+            <p>That didn't really work out in practice because I would find myself either skipping it after the gym, or opting to play in lobbies.</p>
+            <p>During the course of the grind I also had to make time to off-the-clock studying for work, or even just playing an entirely different game.</p>
+            <p>I made my starting point December 31st 2022 as I wanted to make it a New Year's resolution. It took about 4 months from start to finish.</p>
+            <p>I actually started getting worried towards the end because people were slowly quitting ranked as they reached their own SF5 ranked milestones.</p>
+            <Line options={chartOptions} data={lineChartData} />
+        </div>
+    );
 };
 
 /**
