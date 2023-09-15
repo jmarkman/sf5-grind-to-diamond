@@ -1,5 +1,5 @@
 import VisualizationProps from '../../models/VisualizationProps';
-import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, ChartData, ChartOptions } from 'chart.js';
+import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, ChartData, ChartOptions, TooltipItem, ChartTypeRegistry } from 'chart.js';
 import RankedSession from '../../models/RankedSession';
 import { Line } from 'react-chartjs-2';
 
@@ -19,6 +19,18 @@ const PerSessionChart = (props: VisualizationProps) => {
             title: {
                 display: true,
                 text: 'LP Delta Per Ranked Session'
+            },
+            tooltip: {
+                usePointStyle: true,
+                callbacks: {
+                    label: (tooltipItem: TooltipItem<keyof ChartTypeRegistry>) => { return generateToolipLabel(tooltipItem)},
+                    labelPointStyle: () => {
+                        return {
+                            pointStyle: false,
+                            rotation: 0
+                        };
+                    }
+                }
             }
         },
     };
@@ -79,6 +91,27 @@ const generateRankedSessionData = (data: RankedSession[]): RankedSession[] => {
     let rankedArr: RankedSession[] = [...initialSession, ...data];
     
     return rankedArr;
+};
+
+/**
+ * Creates the tooltip label (the body of the tooltip) based on the current data point the
+ * user is hovering over
+ * @remarks Since the first point is a dummy session representing my starting point, this
+ * function will return a singular string as the label segment without any other metadata
+ * @param tooltipItem The tooltip item that ChartJS provides access to in the Label callback
+ * @returns A string array containing the label segments
+ */
+const generateToolipLabel = (tooltipItem: TooltipItem<keyof ChartTypeRegistry>) => { 
+    let datumIndex = tooltipItem.dataIndex;
+    let chartData = tooltipItem.dataset.data;
+    let datum: RankedSession = chartData[datumIndex] as unknown as RankedSession;
+    let lpDelta: number = datum.pointsEnd - datum.pointsStart;
+
+    if (lpDelta === 0) {
+        return `Session LP: ${datum.pointsEnd}`;
+    }
+
+    return [`Session LP: ${datum.pointsEnd}`, `Total Games Played: ${datum.matches.length}`, `LP Delta: ${lpDelta > 0 ? `+${lpDelta}` : lpDelta}`];
 };
 
 export default PerSessionChart;

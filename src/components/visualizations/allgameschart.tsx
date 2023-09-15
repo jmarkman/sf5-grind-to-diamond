@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, ChartData, ChartOptions } from 'chart.js';
+import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, ChartData, ChartOptions, TooltipItem, ChartTypeRegistry } from 'chart.js';
 import zoomPlugin from 'chartjs-plugin-zoom';
 import RankedSession from '../../models/RankedSession';
 import VisualizationProps from '../../models/VisualizationProps';
@@ -39,6 +39,19 @@ const AllGamesChart = (props: VisualizationProps) => {
                         enabled: true
                     },
                     mode: 'x'
+                }
+            },
+            tooltip: {
+                usePointStyle: true,
+                callbacks: {
+                    title: (tooltipItems: TooltipItem<keyof ChartTypeRegistry>[]) => { return generateTooltipTitle(tooltipItems) },
+                    label: (tooltipItem: TooltipItem<keyof ChartTypeRegistry>) => { return generateToolipLabel(tooltipItem) },
+                    labelPointStyle: () => {
+                        return {
+                            pointStyle: false,
+                            rotation: 0
+                        };
+                    }
                 }
             }
         }
@@ -121,6 +134,52 @@ const generateLabelArray = (total: number): string[] => {
     }
 
     return arr;
+}
+
+/**
+ * Creates the tooltip title based on the current data point the user is hovering over
+ * @remarks This function returns a string array because ChartJS will process the string
+ * array as separate title segments that are separated by a newline
+ * @param tooltipItems The tooltip item array that ChartJS provides access to in the Title callback
+ * @returns A string array containing the title segments
+ */
+const generateTooltipTitle = (tooltipItems: TooltipItem<keyof ChartTypeRegistry>[]): string[] => {
+    let tooltip: TooltipItem<keyof ChartTypeRegistry> = tooltipItems[0];
+    let label: string = tooltip.label;
+    let matchDatum: RankedMatch = getRankedMatchFromDataset(tooltip, tooltip.dataIndex);
+
+    return [`Game ${label}`, `Opponent: ${matchDatum.opponent}`];
+};
+
+/**
+ * Creates the tooltip label (the body of the tooltip) based on the current data point the
+ * user is hovering over
+ * @remarks This function returns a string array because ChartJS will process the string
+ * array as separate title segments that are separated by a newline
+ * @param tooltipItem The tooltip item that ChartJS provides access to in the Label callback
+ * @returns A string array containing the label segments
+ */
+const generateToolipLabel = (tooltipItem: TooltipItem<keyof ChartTypeRegistry>): string[] => {
+    let datumIndex: number = tooltipItem.dataIndex;
+    let datum: RankedMatch = getRankedMatchFromDataset(tooltipItem, datumIndex);
+    let previousDatum: RankedMatch = getRankedMatchFromDataset(tooltipItem, datumIndex - 1);
+
+    let lpDelta: number = datum.points - previousDatum.points;
+    
+    return [`Outcome: ${datum.result}`, `LP Change: ${lpDelta >= 0 ? `+${lpDelta}` : lpDelta }`, `Replay ID: ${datum.replayId}`];
+};
+
+/**
+ * Retrieves the underlying RankedMatch object from the dataset enclosed within the tooltip object
+ * @param tooltipItem The tooltip item object representing the datapoint the user is currently hovering over
+ * @param index The numeric index of the current datapoint in the dataset array stored within the tooltip object
+ * @returns The RankedMatch object in the underlying dataset
+ */
+const getRankedMatchFromDataset = (tooltipItem: TooltipItem<keyof ChartTypeRegistry>, index: number): RankedMatch => {
+    let chartData = tooltipItem.dataset.data;
+    let datum: RankedMatch = chartData[index] as unknown as RankedMatch;
+
+    return datum;
 }
 
 export default AllGamesChart;

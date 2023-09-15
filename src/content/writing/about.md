@@ -44,7 +44,7 @@ The best way to do things like integrate counter-hit combos and spacing traps in
 
 Until you reach reasonable competence, [matchups don't matter](https://www.youtube.com/watch?v=Ts9TGTZfLsk&t=243s). Mostly. In Street Fighter 5, I was horrible in the Alex matchup, which is a Chun-Li favored matchup. Same with Zangief. I had to lab and grind those matchups for a LONG time until I started winning against both characters consistently.
 
-However, the opposite can also happen. Also in Street Fighter 5, the Dhalsim matchup for Chun-Li is borderline impossible because her answers to his strategies do not feed into her win condition. I still managed to beat some Dhalsim players during my climb because they weren't well-versed in the matchup or they were simply doing a poor job. That matchup was still hell and basically borderline impossible once there was a drop of Dhalsim competence introduced to the equation.
+However, the opposite can also happen. Going back to Street Fighter 5, the Dhalsim matchup for Chun-Li is borderline impossible because her answers to his strategies do not feed particularly well into her win condition. I still managed to beat some Dhalsim players during my climb because they weren't well-versed in the matchup or they were simply doing a poor job. That matchup was still hell and basically borderline impossible once there was a drop of Dhalsim competence introduced to the equation.
 
 The Guile matchup for Chun-Li was also Guile-favored because his buttons and movement were almost as good as hers while having an exceptionally strong inherent defensive style. However, with some labbing and discussion with friends, training partners, and teachers, I was able to overcome the Guile matchup more often than I realized.
 
