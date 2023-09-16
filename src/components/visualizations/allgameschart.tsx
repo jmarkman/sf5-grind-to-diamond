@@ -82,12 +82,28 @@ const AllGamesChart = (props: VisualizationProps) => {
 
     return (
         <>
-            <p>The "All Games" chart is a bit more interactive! In total, I played {allMatches.length} games, so there are a LOT of points on the chart.</p>
-            <p>To see a subsection of the games I played, click and drag on a given region of the chart. The chart will then zoom in on that section.</p>
-            <p>You can hover over each point to see some metadata about the game played, and you can move the chart left and right by holding the <code>control</code> button on your keyboard and click-and-dragging with your mouse.</p>
-            <p>To see the whole graph in its entirety, click the "Reset Zoom" button.</p>
-            <Line ref={chartRef} options={chartOptions} data={lineChartData} />
-            <button onClick={handleResetZoom}>Reset Zoom</button>
+            <div className='row'>
+                <div className='col'>
+                    <div className='px-5'>
+                        <p>The "All Games" chart is a bit more interactive! In total, I played {allMatches.length} games, so there are a LOT of points on the chart. To see a subsection of the games I played, click and drag on a given region of the chart. The chart will then zoom in on that section. While zoomed, you can move the chart left and right by holding the <code>control</code> button on your keyboard and click-and-dragging with your mouse.</p>
+                        <p>Each point represents one game and one game is first to two rounds. You can hover over each point to see the character I played against, the outcome of the match, the change in my LP, and the replay id associated with the game. Click the <code>Reset Zoom</code> button to return to the complete view of all my games.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className='row'>
+                <div className='col'>
+                    <Line ref={chartRef} options={chartOptions} data={lineChartData} />
+                </div>
+            </div>
+
+            <div className='row'>
+                <div className='col offset-5'>
+                    <div className='p-4 mx-auto'>
+                        <button className='btn btn-primary' onClick={handleResetZoom}>Reset Zoom</button>
+                    </div>
+                </div>
+            </div>
         </>
     );
 };

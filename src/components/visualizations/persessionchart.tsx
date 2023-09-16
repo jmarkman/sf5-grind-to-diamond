@@ -55,14 +55,29 @@ const PerSessionChart = (props: VisualizationProps) => {
     };
 
     return (
-        <div>
-            <p>When I first made the resolution to get to diamond before SF6 dropped, I said that I was going to try to play every day.</p>
-            <p>That didn't really work out in practice because I would find myself either skipping it after the gym, or opting to play in lobbies.</p>
-            <p>During the course of the grind I also had to make time to off-the-clock studying for work, or even just playing an entirely different game.</p>
-            <p>I made my starting point December 31st 2022 as I wanted to make it a New Year's resolution. It took about 4 months from start to finish.</p>
-            <p>I actually started getting worried towards the end because people were slowly quitting ranked as they reached their own SF5 ranked milestones.</p>
-            <Line options={chartOptions} data={lineChartData} />
-        </div>
+        <>
+            <div className='row'>
+                <div className='col'>
+                    <div className='px-5'>
+                        <p>Street Fighter 6 had its <a className='link-offset-2 link-underline link-underline-opacity-25' href='https://www.youtube.com/watch?v=1INU3FOJsTw'>first announcement trailer debut on June 2nd, 2022</a>. Even prior to the trailer, I had always wanted to make it into Diamond to at least play a few games with some known players in matchmaking before the end of Street Fighter 5. When the trailer first dropped, I started getting more active in ranked, realizing that the clock was ticking.</p>
+                        <p>However, I ran into setbacks both self-imposed and external: I had a rough time breaking the 9k LP to 10k LP barrier to Super Platinum, tried my hand at online tournaments, got <a className='link-offset-2 link-underline link-underline-opacity-25' href='https://www.youtube.com/watch?v=RxSmD0OW_oI&list=PLLGcuLWMLx9EHsRlsshuXRgS1Zxz3e-r_&index=1'>distracted by Apex Legends being more enjoyable</a> since I had last played on its release, the list goes on. I eventually made it into Super Plat shortly before New Year's, so I made my starting point December 31st 2022 (a New Year's resolution!)</p>
+                        <p>When I first made the resolution to get to Diamond before SF6 dropped, I said that I was going to try to play every day. That didn't really work out in practice because I would find myself either skipping it after the gym or opting to play in lobbies. During the course of the grind I also had to make time to off-the-clock studying for work, or even just playing an entirely different game. It took about 4 months from start to finish. I actually started getting worried towards the end because people were slowly quitting ranked as they reached their own SF5 ranked milestones.</p>
+                    </div>
+                </div>
+            </div>
+            <div className='row'>
+                <div className='col'>
+                    <Line options={chartOptions} data={lineChartData} />
+                </div>
+            </div>
+            <div className='row'>
+                <div className='col'>
+                    <div className='px-5 py-5'>
+                        <p>Each point in the chart represents a session of ranked matchmaking I played (from here on out referred to as a <em>ranked session</em>). If you hover over each point, you'll see my total LP for each session, how many games I played in that session (if applicable), and the change in LP from the previous session (if applicable).</p>
+                    </div>
+                </div>
+            </div>
+        </>
     );
 };
 

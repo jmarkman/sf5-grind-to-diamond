@@ -17,7 +17,7 @@ const SiteBody = () => {
 
     return (
         <div className='container'>
-            <div className='row'>
+            <div className='row m-5'>
                 <div className='col d-flex justify-content-center'>
                     <button type="button" onClick={changeVisualizationType} value={RankedVisualizationType.PerSession} className="btn btn-primary">LP change per session</button>
                 </div>
