@@ -93,7 +93,9 @@ const AllGamesChart = (props: VisualizationProps) => {
 
             <div className='row'>
                 <div className='col'>
-                    <Line ref={chartRef} options={chartOptions} data={lineChartData} />
+                    <div className='responsiveChart'>
+                        <Line ref={chartRef} options={chartOptions} data={lineChartData} />
+                    </div>
                 </div>
             </div>
 
@@ -176,13 +178,16 @@ const generateTooltipTitle = (tooltipItems: TooltipItem<keyof ChartTypeRegistry>
  * @returns A string array containing the label segments
  */
 const generateToolipLabel = (tooltipItem: TooltipItem<keyof ChartTypeRegistry>): string[] => {
+    let resolutionStartLP: number = 10035;
     let datumIndex: number = tooltipItem.dataIndex;
     let datum: RankedMatch = getRankedMatchFromDataset(tooltipItem, datumIndex);
-    let previousDatum: RankedMatch = getRankedMatchFromDataset(tooltipItem, datumIndex - 1);
-
+    // If previousDatum is null, the user attempted to zoom in from the very start
+    // The list of all my games doesn't contain a starting RankedMatch object like I have for the RankedSession visualization
+    // Therefore, if previousDatum is null, coalecse the value into a new RankedMatch object that represents my starting point
+    let previousDatum: RankedMatch = getRankedMatchFromDataset(tooltipItem, datumIndex - 1) ?? new RankedMatch(resolutionStartLP, "", "", "");
     let lpDelta: number = datum.points - previousDatum.points;
     
-    return [`Outcome: ${datum.result}`, `LP Change: ${lpDelta >= 0 ? `+${lpDelta}` : lpDelta }`, `Replay ID: ${datum.replayId}`];
+    return [`Outcome: ${datum.result}`, `Previous LP: ${previousDatum.points}`, `New LP: ${datum.points}`, `LP Change: ${lpDelta >= 0 ? `+${lpDelta}` : lpDelta }`, `Replay ID: ${datum.replayId}`];
 };
 
 /**

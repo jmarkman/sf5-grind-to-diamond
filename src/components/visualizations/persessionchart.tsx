@@ -2,6 +2,7 @@ import VisualizationProps from '../../models/VisualizationProps';
 import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, ChartData, ChartOptions, TooltipItem, ChartTypeRegistry } from 'chart.js';
 import RankedSession from '../../models/RankedSession';
 import { Line } from 'react-chartjs-2';
+import "../../css/chart.css";
 
 const PerSessionChart = (props: VisualizationProps) => {
     ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
@@ -55,7 +56,7 @@ const PerSessionChart = (props: VisualizationProps) => {
     };
 
     return (
-        <>
+        <div className='alignment'>
             <div className='row'>
                 <div className='col'>
                     <div className='px-5'>
@@ -67,7 +68,9 @@ const PerSessionChart = (props: VisualizationProps) => {
             </div>
             <div className='row'>
                 <div className='col'>
-                    <Line options={chartOptions} data={lineChartData} />
+                    <div className='responsiveChart'>
+                        <Line options={chartOptions} data={lineChartData} />
+                    </div>
                 </div>
             </div>
             <div className='row'>
@@ -77,7 +80,7 @@ const PerSessionChart = (props: VisualizationProps) => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 

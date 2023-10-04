@@ -44,7 +44,7 @@ const CharacterFrequencyChart = (props: VisualizationProps) => {
         }
     };
 
-    const pieChartData: ChartData<"bar"> = {
+    const barChartData: ChartData<"bar"> = {
         labels: characters,
         datasets: [
           {
@@ -71,7 +71,9 @@ const CharacterFrequencyChart = (props: VisualizationProps) => {
           {listTopThreeCharacterOccurrences(topThreeMostCommon)}
           <p>The least common characters I ran into were:</p>
           {listTopThreeCharacterOccurrences(bottomThreeLeastCommon)}
-          <Bar options={chartOptions} data={pieChartData} />
+          <div className="responsiveChart">
+            <Bar options={chartOptions} data={barChartData} />
+          </div>
         </div>
       );
 };

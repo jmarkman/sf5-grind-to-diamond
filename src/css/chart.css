@@ -1,11 +1,18 @@
+.alignment {
+    position: relative;
+    margin: auto;
+}
+
 .responsiveChart {
     position: relative;
     margin: auto;
+    height: 50vh;
     width: 50vw;
 }
 
 .responsivePieChart {
     position: relative;
     margin: auto;
+    height: 62vh;
     width: 30vw;
 }
