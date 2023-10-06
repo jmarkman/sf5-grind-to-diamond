@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { RankedVisualizationType } from '../models/RankedVisualizationType';
 import RankedDataVisualizationFactory from './rankeddatavisualization';
 
-const SiteBody = () => {
+const VisualizationPage = () => {
     const [rankedVisualizationType, setRankedVisualizationType] = useState<RankedVisualizationType>(RankedVisualizationType.PerSession);
 
     const changeVisualizationType = (event: React.MouseEvent<HTMLButtonElement>) => {
@@ -41,4 +41,4 @@ const SiteBody = () => {
     );
 }
 
-export default SiteBody;
+export default VisualizationPage;
