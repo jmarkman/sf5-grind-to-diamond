@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
     const navBarTitle: string = "SF5 Ranked Grind Visualization";
     const visualizationName: string = "Visualizations";
-    const dataLinkName: string = "Dataset";
+    const dataLinkName: string = "Dataset and Tech";
     const aboutName: string = "About";
 
     return (
