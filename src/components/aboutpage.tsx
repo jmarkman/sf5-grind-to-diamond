@@ -3,6 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkHeadingGap from 'remark-heading-gap';
 import remarkBreaks from 'remark-breaks';
 import AboutDoc from '../content/writing/about.md';
+import YouTubeEmbed from './youtubeembed';
 
 const AboutPage = () => {
     const [aboutDoc, setAboutDoc] = useState("");
@@ -14,6 +15,9 @@ const AboutPage = () => {
     return (
         <div className='container'>
             <ReactMarkdown remarkPlugins={[remarkHeadingGap, remarkBreaks]} children={aboutDoc} />
+            <div className='row pb-5 align-content-center'>
+                <YouTubeEmbed hyperlink='https://www.youtube-nocookie.com/embed/8aH5byo3J6A?si=vs7XSqfIcml7ZUZn' videoTitle='History of the Jive, Part 1' />
+            </div>
         </div>
     );
 };

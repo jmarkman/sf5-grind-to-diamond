@@ -7,15 +7,14 @@ import AboutPage from './components/aboutpage';
 
 const App = () => {
   return (
-    <body>
+    <div>
       <NavBar />
       <Routes>
         <Route index path="/" Component={VisualizationPage} />
         <Route path='/dataset' Component={DataSetAndTechPage} />
         <Route path='/about' Component={AboutPage} />
       </Routes>
-      {/* <SiteBody /> */}
-    </body>
+    </div>
   );
 }
 
