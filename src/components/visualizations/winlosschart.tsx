@@ -1,10 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend, ChartOptions, ChartData } from 'chart.js';
 import VisualizationProps from "../../models/VisualizationProps";
 import RankedMatch from "../../models/RankedMatch";
 import { Pie } from "react-chartjs-2";
 import ChartDataLabels, { Context } from "chartjs-plugin-datalabels";
 import WinLoss from "../../models/WinLoss";
+import { ThemeContextType } from '../../models/ThemeContextType';
+import { DARK_MODE, LIGHT_MODE } from '../../models/StyleConstants';
+import { ThemeContext } from '../../contexts/themecontext';
 
 const WinLossChart = (props: VisualizationProps) => {
     ChartJS.register(ArcElement, Tooltip, Legend, ChartDataLabels);
@@ -13,23 +16,40 @@ const WinLossChart = (props: VisualizationProps) => {
     const TOTALWINS: number = ALLMATCHES.filter(x => x.result.toLowerCase() === "win").length;
     const TOTALLOSSES: number = ALLMATCHES.filter(x => x.result.toLowerCase() === "loss").length;
     const [winLossFilter, setWinLossFilter] = useState<string>(ALLCHARACTERS);
+    const themeContext: ThemeContextType | null = useContext(ThemeContext);
+    const [pieChartStyle, setPieChartStyle] = useState<string>("");
+    const [winLossColor, setWinLossColor] = useState<string[]>([""]);
+    const [winLossBorderColor, setWinLossBorderColor] = useState<string[]>([""]);
+
+    useEffect(() => {
+        if (themeContext?.theme === "dark") {
+            setPieChartStyle(DARK_MODE.LINE_CHART_AXIS_AND_TEXT_COLOR);
+            setWinLossColor([DARK_MODE.PIE_CHART_LOSS_COLOR, DARK_MODE.PIE_CHART_WIN_COLOR]);
+            setWinLossBorderColor([DARK_MODE.PIE_CHART_LOSS_COLOR, DARK_MODE.PIE_CHART_WIN_COLOR]);
+        } else {
+            setPieChartStyle(LIGHT_MODE.LINE_CHART_AXIS_AND_TEXT_COLOR);
+            setWinLossColor([LIGHT_MODE.PIE_CHART_LOSS_COLOR, LIGHT_MODE.PIE_CHART_WIN_COLOR]);
+            setWinLossBorderColor([DARK_MODE.PIE_CHART_LOSS_COLOR, DARK_MODE.PIE_CHART_WIN_COLOR]);
+        }      
+    }, [themeContext?.theme]);
 
     const changeCharacter = (event: React.ChangeEvent<HTMLSelectElement>) => {
       setWinLossFilter(event.target.value);
     }
 
-    let chartOptions: ChartOptions = {
+    let chartOptions: ChartOptions<"pie"> = {
         responsive: true,
         plugins: {
             legend: {
                 position: 'left' as const,
+                labels: {
+                    color: pieChartStyle
+                }
             }
         },
     };
 
     let characterWinLoss: Map<string, WinLoss> = createCharacterWinLossMap(ALLMATCHES);
-    let backgroundColor: string[] = ['rgba(255, 99, 132, 0.2)', 'rgba(54, 162, 235, 0.2)'];
-    let borderColor: string[] = ['rgba(255, 99, 132, 1)', 'rgba(54, 162, 235, 1)'];
     let resultSet: number[];
 
     switch (winLossFilter) {
@@ -41,7 +61,7 @@ const WinLossChart = (props: VisualizationProps) => {
         break;
     }
 
-    const pieChartData: ChartData<"pie"> = generatePieChart(resultSet, backgroundColor, borderColor);
+    const pieChartData: ChartData<"pie"> = generatePieChart(resultSet, winLossColor, winLossBorderColor, pieChartStyle);
       
     return (
       <div>
@@ -120,10 +140,10 @@ const createCharacterWinLossMap = (rankedMatches: RankedMatch[]): Map<string, Wi
  * Generates the data and the associated customizations necessary for rending the win-loss pie chart
  * @param winLossData The number of wins and losses to use for the pie chart
  * @param customBackgroundColor Array of RGB CSS methods for the background colors for each pie chart slice
- * @param customBorderColor Array of RGB CSS methods for the border colors for each pie chart slice
+ * @param customColor Array of RGB CSS methods for the border colors for each pie chart slice
  * @returns The data and customizations associated with the pie chart
  */
-const generatePieChart = (winLossData: number[], customBackgroundColor: string[], customBorderColor: string[]): ChartData<"pie"> => {  
+const generatePieChart = (winLossData: number[], customBackgroundColor: string[], customColor: string[], customLabelColor: string): ChartData<"pie"> => {  
   let chartData: ChartData<"pie"> = {
     labels: ['Loss', 'Win'],
     datasets: [
@@ -131,8 +151,9 @@ const generatePieChart = (winLossData: number[], customBackgroundColor: string[]
         label: 'Total',
         data: winLossData,
         backgroundColor: customBackgroundColor,
-        borderColor: customBorderColor,
+        borderColor: customColor,
         datalabels: {
+          color: customLabelColor,
           formatter(value: number, context: Context) {
             let percentage: string = "";
             let sum: number = 0;
@@ -149,6 +170,7 @@ const generatePieChart = (winLossData: number[], customBackgroundColor: string[]
             return percentage;
           },
           font: {
+            
             weight: 'bold',
             size: 48
         },

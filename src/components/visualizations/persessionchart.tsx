@@ -3,23 +3,74 @@ import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement
 import RankedSession from '../../models/RankedSession';
 import { Line } from 'react-chartjs-2';
 import "../../css/chart.css";
+import { ThemeContext } from "../../contexts/themecontext";
+import React, { useState, useContext, useEffect } from 'react';
+import { ThemeContextType } from '../../models/ThemeContextType';
+import { LIGHT_MODE, DARK_MODE, NO_GRID_LINE } from '../../models/StyleConstants';
 
 const PerSessionChart = (props: VisualizationProps) => {
     ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
+    const themeContext: ThemeContextType | null = useContext(ThemeContext);
+    const [gridStyle, setGridStyle] = useState<string>("");
+
+    useEffect(() => {
+        if (themeContext?.theme === "dark") {
+            setGridStyle(DARK_MODE.LINE_CHART_AXIS_AND_TEXT_COLOR);
+        } else {
+            setGridStyle(LIGHT_MODE.LINE_CHART_AXIS_AND_TEXT_COLOR);
+        }      
+    }, [themeContext?.theme]);
 
     let rankedData: RankedSession[] = props.data;
     let lineChartLabels: string[] = generateDateAxis(rankedData);
     let allRankedSessions: RankedSession[] = generateRankedSessionData(rankedData);
     
-    let chartOptions: ChartOptions = {
+    let chartOptions: ChartOptions<"line"> = {
         responsive: true,
+        scales: {
+            x: {
+                grid: {
+                    color: NO_GRID_LINE
+                },
+                ticks: {
+                    autoSkip: true,
+                    maxTicksLimit: 20,
+                    color: gridStyle
+                },
+                title: {
+                    display: true,
+                    text: "Date (Year-Month-Day)",
+                    color: gridStyle
+                }
+            },
+            y: {
+                grid: {
+                    color: gridStyle
+                },
+                ticks: {
+                    color: gridStyle
+                },
+                title: {
+                    display: true,
+                    text: "League Points",
+                    color: gridStyle
+                },
+                border: {
+                    color: gridStyle
+                }
+            }
+        },
         plugins: {
             legend: {
                 position: 'top' as const,
+                labels: {
+                    color: gridStyle
+                }
             },
             title: {
                 display: true,
-                text: 'LP Delta Per Ranked Session'
+                text: 'LP Delta Per Ranked Session',
+                color: gridStyle
             },
             tooltip: {
                 usePointStyle: true,

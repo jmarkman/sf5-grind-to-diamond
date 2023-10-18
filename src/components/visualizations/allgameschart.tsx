@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect, useState, useContext } from 'react';
 import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, ChartData, ChartOptions, TooltipItem, ChartTypeRegistry } from 'chart.js';
 import zoomPlugin from 'chartjs-plugin-zoom';
 import RankedSession from '../../models/RankedSession';
@@ -6,27 +6,76 @@ import VisualizationProps from '../../models/VisualizationProps';
 import { Line } from 'react-chartjs-2';
 import RankedMatch from '../../models/RankedMatch';
 import { ChartJSOrUndefined } from 'react-chartjs-2/dist/types';
+import { ThemeContextType } from '../../models/ThemeContextType';
+import { DARK_MODE, LIGHT_MODE, NO_GRID_LINE } from '../../models/StyleConstants';
+import { ThemeContext } from '../../contexts/themecontext';
 
 const AllGamesChart = (props: VisualizationProps) => {
     // The third type here is defined as unknown as the third typing of a chart in Chart.js is
     // the TLabel type (I believe this is the type used for labeling the chart data, commonly string)
     const chartRef = useRef<ChartJSOrUndefined<"line", RankedMatch[], unknown> | null>(null);
-    
     ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, zoomPlugin);
-    
+    const themeContext: ThemeContextType | null = useContext(ThemeContext);
+    const [gridStyle, setGridStyle] = useState<string>("");
+
+    useEffect(() => {
+        if (themeContext?.theme === "dark") {
+            setGridStyle(DARK_MODE.LINE_CHART_AXIS_AND_TEXT_COLOR);
+        } else {
+            setGridStyle(LIGHT_MODE.LINE_CHART_AXIS_AND_TEXT_COLOR);
+        }      
+    }, [themeContext?.theme]);
+
     let rankedData: RankedSession[] = props.data;
     let allMatches: RankedMatch[] = generateAllGamesData(rankedData);
     let matchLabels: string[] = generateLabelArray(allMatches.length);
 
-    let chartOptions: ChartOptions = {
+    let chartOptions: ChartOptions<"line"> = {
         responsive: true,
+        scales: {
+            x: {
+                grid: {
+                    color: NO_GRID_LINE
+                },
+                ticks: {
+                    autoSkip: true,
+                    maxTicksLimit: 20,
+                    color: gridStyle
+                },
+                title: {
+                    display: true,
+                    text: "Match Number",
+                    color: gridStyle
+                }
+            },
+            y: {
+                grid: {
+                    color: gridStyle
+                },
+                ticks: {
+                    color: gridStyle
+                },
+                title: {
+                    display: true,
+                    text: "League Points",
+                    color: gridStyle
+                },
+                border: {
+                    color: gridStyle
+                }
+            }
+        },
         plugins: {
             legend: {
                 position: 'top' as const,
+                labels: {
+                    color: gridStyle
+                }
             },
             title: {
                 display: true,
-                text: 'LP Delta For All Ranked Games'
+                text: 'LP Delta For All Ranked Games',
+                color: gridStyle
             },
             zoom: {
                 pan: {
@@ -83,27 +132,16 @@ const AllGamesChart = (props: VisualizationProps) => {
     return (
         <>
             <div className='row'>
-                <div className='col'>
-                    <div className='px-5'>
-                        <p>The "All Games" chart is a bit more interactive! In total, I played {allMatches.length} games, so there are a LOT of points on the chart. To see a subsection of the games I played, click and drag on a given region of the chart. The chart will then zoom in on that section. While zoomed, you can move the chart left and right by holding the <code>control</code> button on your keyboard and click-and-dragging with your mouse.</p>
-                        <p>Each point represents one game and one game is first to two rounds. You can hover over each point to see the character I played against, the outcome of the match, the change in my LP, and the replay id associated with the game. Click the <code>Reset Zoom</code> button to return to the complete view of all my games.</p>
-                    </div>
+                <div className='px-5'>
+                    <p>The "All Games" chart is a bit more interactive! In total, I played {allMatches.length} games, so there are a LOT of points on the chart. To see a subsection of the games I played, click and drag on a given region of the chart. The chart will then zoom in on that section. While zoomed, you can move the chart left and right by holding the <code>control</code> button on your keyboard and click-and-dragging with your mouse.</p>
+                    <p>Each point represents one game and one game is first to two rounds. You can hover over each point to see the character I played against, the outcome of the match, the change in my LP, and the replay id associated with the game.</p>
+                    <p>Click the <button className='btn btn-primary' onClick={handleResetZoom}>Reset Zoom</button> button to return to the complete view of all my games.</p>
                 </div>
             </div>
 
             <div className='row'>
-                <div className='col'>
-                    <div className='responsiveChart'>
-                        <Line ref={chartRef} options={chartOptions} data={lineChartData} />
-                    </div>
-                </div>
-            </div>
-
-            <div className='row'>
-                <div className='col offset-5'>
-                    <div className='p-4 mx-auto'>
-                        <button className='btn btn-primary' onClick={handleResetZoom}>Reset Zoom</button>
-                    </div>
+                <div className='responsiveChart'>
+                    <Line ref={chartRef} options={chartOptions} data={lineChartData} />
                 </div>
             </div>
         </>

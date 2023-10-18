@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
-    const navBarTitle: string = "SF5 Ranked Grind Visualization";
+    const navBarTitle: string = "📈 SF5 Ranked Grind to Diamond 📉";
     const visualizationName: string = "Visualizations";
     const dataLinkName: string = "Dataset and Tech";
     const aboutName: string = "About";
