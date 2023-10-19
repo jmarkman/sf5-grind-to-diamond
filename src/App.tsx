@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom';
 import DataSetAndTechPage from './components/datasetandtechpage';
 import AboutPage from './components/aboutpage';
 import { ThemeContext } from './contexts/themecontext';
+import LessonsLearnedPage from './components/lessonslearnedpage';
 
 const App = () => {
   const lightThemeIcon: string = "🌞";
@@ -16,7 +17,7 @@ const App = () => {
     document.documentElement.setAttribute("data-bs-theme", theme);
   }, [theme]);
 
-  const toggleTheme = () => {
+  const toggleTheme = (): void => {
     const newTheme = theme === "dark" ? "light" : "dark";
     const newThemeIcon = theme === "dark" ? darkThemeIcon : lightThemeIcon;
     setTheme(newTheme);
@@ -34,6 +35,7 @@ const App = () => {
           <Route index path="/" Component={VisualizationPage} />
           <Route path='/dataset' Component={DataSetAndTechPage} />
           <Route path='/about' Component={AboutPage} />
+          <Route path='/lessons' Component={LessonsLearnedPage} />
         </Routes>
       </ThemeContext.Provider>
     </div>

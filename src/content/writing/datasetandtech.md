@@ -1,4 +1,4 @@
-## About my dataset
+## Organization
 
 I organized my games in an Excel workbook and made sheets for each date I played an extended session of ranked matchmaking. I refer to these as "Ranked Sessions" in the domain of this project. Each Ranked Session tracks:
 - my starting LP
@@ -29,7 +29,7 @@ The renames were easy to change, but the replays for that one February 2023 sess
 
 I ended up aggregating all of the singular ranked matches in larger sequences so I could project them into different subsets (i.e., per-character win/loss, character frequency, all matches) and my Ranked Session concept didn't come into play outside of the change in session LP between sessions visualization. Having a collection of timestamped Ranked Matches would mean that I can aggregate them on demand into sessions, and I can do more fine-grained analyses involving time between matches.
 
-2. Rrather than making an Excel sheet, I'd have everything stored in a (cloud) database and accessible via an API
+2. Rather than making an Excel sheet, I'd have everything stored in a (cloud) database and accessible via an API
 
 Since another version of this project would be focused on a newer game (in this case, Street Fighter 6), there's a lot more room for tracking lifetime progress rather than a snapshot of my time playing the game. Additionally, I could add a rather large bit of flare on the visualization side and allow anyone who's more technically inclined to perform SQL-like queries on copies of my data.
 
@@ -43,7 +43,7 @@ var characterWinLossSequence = rankedSessions.SelectMany(s => s.Matches).Select(
 
 JS map, filter, and reduce are much more obtuse in comparison and not as straightforward when it comes to handling nested sequences. If I could have all of that projection logic off the frontend, it'd be much easier to focus on the pure visual design part of a corresponding frontend. The more I've worked on this project, the more I've come to simultaneously appreciate and dislike JavaScript.
 
-4. ... Maybe not use an enum for concepts like "Win" and "Loss"
+4. Maybe not use an enum for concepts like "Win" and "Loss"
 
 I thought I was going to be cool and convert every instance of me typing "W" or "L" into the Excel workbook into an enum I could use with TypeScript's enum implementation, but that didn't go over so well with how ChartJS works with data under the hood. I ended up foregoing the idea and doing a bunch of string comparison and counting instead. Oops.
 

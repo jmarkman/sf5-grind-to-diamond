@@ -10,7 +10,7 @@ const DataSetAndTechPage = () => {
 
     useEffect(() => {
         fetch(DataSetDoc).then(res => res.text()).then(text => setAboutDataSet(text));
-    }, [])
+    }, [aboutDataSet])
 
     const downloadRankedDataJson = () => {
         let link = document.createElement('a');
@@ -23,9 +23,13 @@ const DataSetAndTechPage = () => {
 
     return (
         <div className="container">
-            <div className="d-grid my-5">
-                <button type="button" className="btn btn-primary btn-lg" onClick={downloadRankedDataJson}>Download my Ranked Grind Data as a JSON file</button>
+            <div className='row'>
+                <h1 className='text-center'>My dataset and some tech reflections</h1>
+                <div className="d-grid m-3">
+                    <button type="button" className="btn btn-primary btn-lg" onClick={downloadRankedDataJson}>Download my Ranked Grind Data as a JSON file</button>
+                </div>
             </div>
+
             <ReactMarkdown remarkPlugins={[remarkHeadingGap, remarkBreaks]} children={aboutDataSet} />
         </div>
     );

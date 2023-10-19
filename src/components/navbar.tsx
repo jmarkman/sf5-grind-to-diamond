@@ -5,6 +5,7 @@ const NavBar = () => {
     const navBarTitle: string = "📈 SF5 Ranked Grind to Diamond 📉";
     const visualizationName: string = "Visualizations";
     const dataLinkName: string = "Dataset and Tech";
+    const findingsName: string = "Lessons Learned";
     const aboutName: string = "About";
 
     return (
@@ -16,6 +17,7 @@ const NavBar = () => {
                 <ul className="nav nav-pills">
                     <li className="nav-item"><Link to="/" className="nav-link">{visualizationName}</Link></li>
                     <li className="nav-item"><Link to="/dataset" className="nav-link">{dataLinkName}</Link></li>
+                    <li className="nav-item"><Link to="/lessons" className="nav-link">{findingsName}</Link></li>
                     <li className="nav-item"><Link to="/about" className="nav-link">{aboutName}</Link></li>
                 </ul>
             </header>
