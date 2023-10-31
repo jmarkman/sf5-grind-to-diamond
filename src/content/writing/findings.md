@@ -24,7 +24,7 @@ In games like Quake 3, you can buy time to think about your next move by strafej
 
 In fighting games, all of that happens over *seconds* and I'm often trying to think of my next move based on what I've done prior *when* a knockdown happens. A complaint I often have is that things are happening too fast and I don't know what to do midscreen when things get too chaotic, or when a jump happens that I'm not mentally preparing for at least 5-10 seconds prior based on the opponent's previous behavior.
 
-At least for Street Fighter 5, I was [severely overthinking my approach](https://youtu.be/wVbmQbMZu7E). This was part of a much longer session I had with [Espadah](https://metafy.gg/@espadah/sessions) where he told me I was trying to go to different layers of strategy like other games when people weren't even able to deal with my first layer of strategy (just press 5hk and 5hp). The way some people online will play, all that crap about whiff punishing and spacing never comes into the equation. Don't make some matches more complicated than they have to be.
+At least for Street Fighter 5, I was severely overthinking my approach. This was part of a much longer session I had with [Espadah](https://metafy.gg/@espadah/sessions) where he told me I was trying to go to different layers of strategy like other games when people weren't even able to deal with my first layer of strategy (just press 5hk and 5hp). The way some people online will play, all that crap about whiff punishing and spacing never comes into the equation. Don't make some matches more complicated than they have to be.
 
 ---
 

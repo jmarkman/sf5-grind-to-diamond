@@ -18,8 +18,12 @@ const AboutPage = () => {
                 <h1 className='pb-3 text-center'>About this website</h1>
             </div>
             <ReactMarkdown remarkPlugins={[remarkHeadingGap, remarkBreaks]} children={aboutDoc} />
-            <div className='row pb-5 align-content-center'>
-                <YouTubeEmbed hyperlink='https://www.youtube-nocookie.com/embed/8aH5byo3J6A?si=vs7XSqfIcml7ZUZn' videoTitle='History of the Jive, Part 1' />
+            <div className='py-3'>
+                <div className='row'>
+                    <div className='mx-auto text-center'>
+                        <YouTubeEmbed hyperlink='https://www.youtube-nocookie.com/embed/8aH5byo3J6A?si=vs7XSqfIcml7ZUZn' videoTitle='History of the Jive, Part 1' />
+                    </div>
+                </div>
             </div>
         </div>
     );
