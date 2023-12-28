@@ -1,3 +1,9 @@
+## Introduction
+
+This is going to be a technical-ish discussion of how I collected and coalesed the data for this site as well as some minor technical talk. I used several libraries I plan to write CAHNTENT for on my non-gamer blog since it was kinda awkward to pick some of them up and integrate them together.
+
+If you understand what programming languages are and how they work, you might be a little interested in my process below.
+
 ## Organization
 
 I organized my games in an Excel workbook and made sheets for each date I played an extended session of ranked matchmaking. I refer to these as "Ranked Sessions" in the domain of this project. Each Ranked Session tracks:

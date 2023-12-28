@@ -8,5 +8,5 @@ As Street Fighter 5 was in its final months before the release of Street Fighter
 
 While playing in both online lobbies and online ranked matchmaking, it was difficult to prove to myself that I was improving. This project helped me visualize what exactly my experience grinding was like. I don't have any natural acumen for fighting games and I was reliant on others for picking up the subtle nuances of advanced play, so I didn't skyrocket to the top after a year. I think the visualizations themselves are quite interesting.
 
-A technical breakdown of this site will be available on my "real world"/professional blog. If you've found this site as someone not invested in fighting games (or even video games), [take a gander at this video](https://www.youtube.com/watch?v=mCUlBX8E2BU).
+A technical breakdown of this site will be available on my "real world"/professional blog eventually. If you've found this site as someone not invested in fighting games (or even video games), [take a gander at this video](https://www.youtube.com/watch?v=mCUlBX8E2BU).
 

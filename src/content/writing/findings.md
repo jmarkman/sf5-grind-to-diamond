@@ -48,7 +48,7 @@ Scrubquotes-y, but based on my data and the character prevalence in tournaments,
 
 ---
 
-## Don't immediately try things you've learned in lobbies while playing ranked matchmaking
+## Don't immediately try things you've learned in lobbies while playing ranked matchmaking, but introduce them slowly
 
 The best way to do things like integrate counter-hit combos and spacing traps into your repetoire as an intermediate player is to follow this pattern:
 1. Practice the basic sequence in training mode
@@ -62,13 +62,15 @@ This is one of the core tenants of the genre. It's like learning shock combos in
 
 ## Find a group to practice with
 
-You *can* go it alone, but it's way easier to find people to play with in lobbies. Be warned: running sets will be an entirely different world versus playing ranked matchmaking (or matchmaking in general) and the headspace you might have for, but finding a group of people who are not only people you'd consider friends but also more experienced than you is a massive game changer.
+You *can* go it alone, but it's way easier to find people to play with in lobbies. Be warned: running sets will be an entirely different world versus playing ranked matchmaking (or matchmaking in general) but finding a group of people who are not only people you'd consider friends but also more experienced than you is a massive game changer.
 
 I see a lot of people approach playing with others in sets with an overenthusiastic mindset of "hehe yeah getting my ass beat is all part of the experience" but your newfound group/friends can be great players but be awful explainers when you finally do have a question, which is why I don't really like this mindset.
 
 The mindset I would probably espouse if your group *doesn't* have good explainers is "I'm here to play some ${fightingGame} with my friends, and I want to try to do **x**" where x is something small, tangible, and realistic like "land this light > light > special combo as a punish when my friend inevitably misspaces their good-but-minus button".
 
 The more you practice with a group with that mindset, the more they get to know about you and your playstyle. Even if they aren't the best explainers, they can find gaps in your gameplay and offer what they know, even if it's just "you don't do ${thing} so I just feel comfortable doing ${otherThing}".
+
+Side note: bad explainers can also take the opposite form of being overly-wordy, delving quickly into theoreticals, mental exercises, and mindsets. There was a certain individual who frequented several character discords in Street Fighter 5 who would interject themselves into conversations spurred from questions, bringing all of their ultra gold experience to bear with little impact.
 
 ---
 
@@ -91,3 +93,13 @@ Not exactly an easy feat, but I think this really helped my understanding of fig
 Turns out that they were just THAT GOOD and most Alex players I was up against in ranked were not playing to their level; as I played against my friends, I got to understand the matchup at a more nuanced level and as I played ranked, I saw the edge she has in the matchup since my opponents were that much worse.
 
 I also had a lot of guidance from high-level players like [Zaferino](https://www.twitch.tv/zaferino1) and [Espadah](https://www.twitch.tv/espadah). In addition to being high-level players, they were divorced from my day-to-day gameplay and able to hone in on things that I was doing that were holding me back.
+
+---
+
+## It's not a bad idea to enter a tournament for the experience but...
+
+If you decide to go the competitive route or go to your local, getting tournament experience decently early into your experience with a fighting game is a good choice. I got experience when ogyawn was running Battle for the Bruce Lee II and it was pretty good since I was in base Platinum and had somewhat of an idea what it meant to play a competitive game.
+
+The worst part of tournaments for lower-level players is that unless the tournament is specifically catered as a learning experience or is rank-limited, it's very easy to lose both your winner's and loser's matches (commonly referred to as "going 0 and 2") and feel like you wasted your time.
+
+If you can enter a netplay tournament, it's not a bad idea, but be fully aware of what you're getting yourself into and you may likely find yourself out of the bracket with the quickness.
