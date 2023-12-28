@@ -130,21 +130,25 @@ const AllGamesChart = (props: VisualizationProps) => {
     };
 
     return (
-        <>
+        <div className='alignment'>
             <div className='row'>
-                <div className='px-5'>
-                    <p>The "All Games" chart is a bit more interactive! In total, I played {allMatches.length} games, so there are a LOT of points on the chart. To see a subsection of the games I played, click and drag on a given region of the chart. The chart will then zoom in on that section. While zoomed, you can move the chart left and right by holding the <code>control</code> button on your keyboard and click-and-dragging with your mouse.</p>
-                    <p>Each point represents one game and one game is first to two rounds. You can hover over each point to see the character I played against, the outcome of the match, the change in my LP, and the replay id associated with the game.</p>
-                    <p>Click the <button className='btn btn-primary' onClick={handleResetZoom}>Reset Zoom</button> button to return to the complete view of all my games.</p>
+                <div className='col'>
+                    <div className='px-5'>
+                        <p>The "All Games" chart is a bit more interactive! In total, I played {allMatches.length} games, so there are a LOT of points on the chart. To see a subsection of the games I played, click and drag on a given region of the chart. The chart will then zoom in on that section. While zoomed, you can move the chart left and right by holding the <code>control</code> button on your keyboard and click-and-dragging with your mouse.</p>
+                        <p>Each point represents one game and one game is first to two rounds. You can hover over each point to see the character I played against, the outcome of the match, the change in my LP, and the replay id associated with the game.</p>
+                        <p>Click the <button className='btn btn-primary' onClick={handleResetZoom}>Reset Zoom</button> button to return to the complete view of all my games.</p>
+                    </div>
                 </div>
             </div>
 
             <div className='row'>
-                <div className='responsiveChart'>
-                    <Line ref={chartRef} options={chartOptions} data={lineChartData} />
+                <div className='col'>
+                    <div className='responsiveChart'>
+                        <Line ref={chartRef} options={chartOptions} data={lineChartData} />
+                    </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 
