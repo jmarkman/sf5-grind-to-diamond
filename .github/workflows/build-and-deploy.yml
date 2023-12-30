@@ -35,7 +35,6 @@ jobs:
         name: Deploy
         needs: build
         runs-on: ubuntu-latest
-        if: github.ref == 'refs/head/main'
 
         steps:
             - name: Get build artifact
