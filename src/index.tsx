@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-      <BrowserRouter>
+      <BrowserRouter basename='sf5-grind-to-diamond'>
         <App />
       </BrowserRouter>
   </React.StrictMode>
