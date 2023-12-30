@@ -16,6 +16,42 @@ It's sort of like weightlifting or any other exercise in its own way; the more y
 
 ---
 
+## You don't have to rematch if you think someone's playing like an asshole and you're not getting anything out of it
+
+This is probably one of the more detailed takeaways that took some time to rationalize as someone who's competed for fun for a **long** time. I actually thought about this and talked about it at length when someone I knew was going through a similar issue during Street Fighter 6. 
+
+The feelings of taking the game and improvement at it seriously are addictive: do bad, go lab, run it back, do good = feel good. Yet at the end of the day, Street Fighter is a video game, and video games are meant to be fun experiences where we can challenge ourselves and experience cool things. 
+
+Some people play video games to make other people miserable, and that's what's fun for them. One of my FPS crews eventually took up a mantra of "I'm not happy 'till you're not happy" when it came to dealing with people in pub servers and matchmaking because there are so many annoying and volatile personalities online. Another crew I roll with adopted this mantra without ever hearing it because of the exact same thing: people just trying to make the experience miserable or otherwise not fun.
+
+When I was playing Tribes Ascend in pubs, we ran "counter offensives" where if someone was being a controlling loser or trying to make their dollar store version of a griefing video, we turned the tables on them. Some of my Hell Let Loose clips on my YouTube channel are based around the result of that kind of thing. If they were to deny us, we would deny them: either we'd find our own thing to do or bounce.
+
+As I progressed through the ranked grind to Diamond, several games were like this. Sure, you never know until you play it out, but sometimes people are just looking to cheese some alt account they made to Diamond and it's really obvious. Fuck 'em. Win or lose, just dip. You are not in a tournament where you gotta ride or die through that kind of gameplay, and you'll already be practicing to deal with that in so many other ranked matches already.
+
+[![da share zone was spittin with this fr](https://i.imgur.com/aqtM95am.jpg)](https://twitter.com/dasharez0ne/status/979810839749210112)
+
+Some young bloods and those of a more aggressive disposition might think of this as "running away", so let me present two notions:
+
+1. If you're on a losing streak, do you *really* need something else on top of all the shit you're dealing with during a given session? Not even just something else, but something *extremely stupid* that you'd probably deal with easily in the right state of mind? You're already malding about something, and malding drains energy that you're not aware of: don't add something else to the pile of shit that'll just burn you out even faster.
+
+2. "We're born with a limited number of fucks in our body"
+
+There was an excellent article from the Smithsonian about how older people are typically better at controlling their emotions (the wisened old senseis) that was shared on HackerNews. [One commentor said the following:](https://news.ycombinator.com/item?id=27128966)
+
+> My entirely unscientific theory is that like other cells, we're born with a limited number of fucks in our body. When we're young, we (instinctively, subconsciously) feel like our fucks reserves are plentiful, so we give a fuck about a lot of stuff.
+>
+> When we're young, we (instinctively, subconsciously) feel like our fucks reserves are plentiful, so we give a fuck about a lot of stuff. As we get older, our reservoir of fucks gets progressively depleted. The fucks are rarer, so we give a fuck less and less often. 
+>
+> I've recently turned 40 and I can definitely feel this in myself; just like recovery from workouts takes a little longer than when I was 20, I don't give a fuck about things so easily. 
+> 
+> By the time you're officially old, you're almost out of fucks, so it's not like you don't give a fuck because you don't want to, but because it's more difficult physically (harvesting of the last fucks takes more energy, because biology). 
+>
+> Brb, submitting to Nature.
+
+[The article itself is really good](https://www.smithsonianmag.com/science-nature/why-do-older-individuals-have-greater-control-their-feelings-180977693/) and I suggest reading it if you want to find your middle ground where you're not burning through your limited supply of fucks to give to assholes on ranked.
+
+---
+
 ## Neutral is not that complicated
 
 Something that has scarred my ability to understand this genre is that I treat every encounter in this game based on my experience playing FPS and RTS games; basically, I never had the youth experience of figuring out how to mash, how to play like a flowchart Ken, what the equivalent of RTS game cheese strats were, and so on. 
@@ -35,6 +71,24 @@ At this time of writing this, a few notable players have put out content-creator
 As my rank rose, it wasn't really possible to continue playing like this. I tanked in points during early February of the grind because I didn't have a flowchart nor did I have any strong win conditions, and I only started to climb back once I started increasing awareness of when super would either win the round/game or get me very close.
 
 Knowing how to play defensively is fine and it's an important skill, but not everyone is going to play like your average online warrior. You'll have to build a flowchart of punishes for common scenarios in order to save mental processing power for adjusting your tactics on the fly. Once I got proactive enough on offense, I was able to attempt to dictate the pace of combat and started climbing points towards to my previous high towards the end of February.
+
+---
+
+## Improvement isn't a straight line, but you can tell when you're clearly not doing well
+
+For my sessions in February leading into early March, I actually *was* improving in LP steadily. However, if you look at that stretch of time as **individual games**, my LP change was way more erratic. It was easy to drop 100 or 300 LP either in one bad loss streak or over time as I lost more than I won. In some parts of that stretch, I'd spike 300 LP on occasion, waver and bleed out some LP, then spike again.
+
+This part of playing felt awful. I felt like I wasn't gonna make it a *lot* because I just kept swinging back and forth and felt stuck. This project has helped me quantify that points represent your consistency more than your actual skill level. I don't suggest that *you* do the same thing I did, but maybe just have a basic Excel sheet where you log the date, your starting rank points, and your ending rank points. Can even use Excel to make your own line graph to chart the delta.
+
+A nice thing about charts is that they help visualize change, but a bad thing about charts is that if they don't have enough data, they won't paint a clear picture of that change. Recently, Zaferino posted this in his public Fighter Academy Discord:
+
+![Progress](https://i.imgur.com/9hbkfHwl.jpg)
+
+There's a lot of feel-good vibes about this tweet (shut up they're tweets) but there's also a lot of reality in it as demonstrated in my own progress to Diamond in SF5. On a micro level, one where I'm intimately aware of how my LP fluctuated hard over the course of a few games, I felt like I wasn't doing well. On a macro level, the numbers don't lie: it was slow, but there was steady and upwards improvement until I took off. 
+
+If you're growing exponentially rather than logarithmically and you zoom in on the start of the chart, it looks like you're doing **hella** shitty and someone else is doing much better. Zoom out, and if you're on that exponential track, you're doing really well and catching up while logarithmic gamer is stagnating.
+
+However, motivation, charts, and feel-good quotes only go so far, and you *need* a healthy dose of realism in your mental. I lost about 1.5k LP after my session on January 9th. In a moment like that, you have to be straight *tippin'* off that copium to write that kind of loss off as just a minor setback in consistency. If you've been treading water in a single rank for a while but you "feel" like a better player, you gotta reach out and ask for some help. Sometimes all it takes is a nudge, sometimes it takes more.
 
 ---
 

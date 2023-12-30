@@ -3,6 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkHeadingGap from 'remark-heading-gap';
 import remarkBreaks from 'remark-breaks';
 import FindingsDoc from '../content/writing/findings.md';
+import '../css/quote.css';
 
 const LessonsLearnedPage = () => {
     const [findingsDoc, setFindingsDoc] = useState("");
