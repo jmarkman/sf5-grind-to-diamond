@@ -1,0 +1,51 @@
+name: Build & Deploy to GH Pages
+
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+    build:
+        name: Build
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v2
+
+            - name: Install Node.js
+              uses: actions/setup-node@v1
+              with:
+                node-version: 18.x
+
+            - name: Install NPM packages
+              run: npm ci
+
+            - name: Generate build
+              run: npm run build
+
+            - name: Upload build artifact
+              uses: actions/upload-artifact@v2
+              with:
+                name: sf5chart-prod-build
+                path: ./build
+    
+    deploy:
+        name: Deploy
+        needs: build
+        runs-on: ubuntu-latest
+        if: github.ref == 'refs/head/main'
+
+        steps:
+            - name: Get build artifact
+              uses: actions/download-artifact@v2
+              with:
+                name: sf5chart-prod-build
+                path: ./build
+            
+            - name: Deploy to Github Pages
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                github_token: ${{ secrets.GITHUB_TOKEN }}
+                publish_dir: ./build
