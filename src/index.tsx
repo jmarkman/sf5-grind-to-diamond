@@ -9,9 +9,12 @@ import { BrowserRouter } from 'react-router-dom';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
+const basename = document.querySelector('base')?.getAttribute('href') ?? '/';
+
 root.render(
   <React.StrictMode>
-      <BrowserRouter basename='sf5-grind-to-diamond'>
+      <BrowserRouter basename={basename}>
         <App />
       </BrowserRouter>
   </React.StrictMode>
