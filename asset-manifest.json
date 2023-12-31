@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/sf5-grind-to-diamond/static/css/main.41e1edb4.css",
-    "main.js": "/sf5-grind-to-diamond/static/js/main.e7729f80.js",
-    "static/js/787.c9d17bff.chunk.js": "/sf5-grind-to-diamond/static/js/787.c9d17bff.chunk.js",
-    "static/media/arisJam.webm": "/sf5-grind-to-diamond/static/media/arisJam.e6694fbaaa4f844383ed.webm",
-    "static/media/findings.md": "/sf5-grind-to-diamond/static/media/findings.4613d10f9eca37be3487.md",
-    "static/media/datasetandtech.md": "/sf5-grind-to-diamond/static/media/datasetandtech.743a3da74e1e34615926.md",
-    "static/media/about.md": "/sf5-grind-to-diamond/static/media/about.f5d4ea659fceba255def.md",
-    "index.html": "/sf5-grind-to-diamond/index.html",
-    "main.41e1edb4.css.map": "/sf5-grind-to-diamond/static/css/main.41e1edb4.css.map",
-    "main.e7729f80.js.map": "/sf5-grind-to-diamond/static/js/main.e7729f80.js.map",
-    "787.c9d17bff.chunk.js.map": "/sf5-grind-to-diamond/static/js/787.c9d17bff.chunk.js.map"
+    "main.css": "./static/css/main.41e1edb4.css",
+    "main.js": "./static/js/main.23c98d6c.js",
+    "static/js/787.c9d17bff.chunk.js": "./static/js/787.c9d17bff.chunk.js",
+    "static/media/arisJam.webm": "./static/media/arisJam.e6694fbaaa4f844383ed.webm",
+    "static/media/findings.md": "./static/media/findings.4613d10f9eca37be3487.md",
+    "static/media/datasetandtech.md": "./static/media/datasetandtech.743a3da74e1e34615926.md",
+    "static/media/about.md": "./static/media/about.f5d4ea659fceba255def.md",
+    "index.html": "./index.html",
+    "main.41e1edb4.css.map": "./static/css/main.41e1edb4.css.map",
+    "main.23c98d6c.js.map": "./static/js/main.23c98d6c.js.map",
+    "787.c9d17bff.chunk.js.map": "./static/js/787.c9d17bff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41e1edb4.css",
-    "static/js/main.e7729f80.js"
+    "static/js/main.23c98d6c.js"
   ]
 }
