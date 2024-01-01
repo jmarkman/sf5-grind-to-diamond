@@ -160,6 +160,8 @@ The worst part of tournaments for lower-level players is that unless the tournam
 
 If you can enter a netplay tournament, it's not a bad idea, but be fully aware of what you're getting yourself into and you may likely find yourself out of the bracket with the quickness.
 
+---
+
 ## If you're not having fun, it's fine to do something else
 
 As I mentioned on the ranked session visualization page, there were a good amount of chunks of time where I was eithe not playing SF5 or only playing SF5 in lobbies. During the between period of SF5 and SF6 and the actual stretch of time I spent on my ranked grind endeavor, I managed to clear through [the entire](https://steamcommunity.com/id/comradesniper/recommended/1105500/) [Kiryu saga of](https://steamcommunity.com/id/comradesniper/recommended/1105510/) [the Yakuza franchise](https://steamcommunity.com/id/comradesniper/recommended/1388590/) and [get back to](https://www.youtube.com/watch?v=qI64ejxndDg) [my RTS roots](https://www.youtube.com/watch?v=KJtnsH9mWWw) [via Age of Empires 4](https://www.youtube.com/watch?v=-j8O3ValSOI). I got into Apex Legends and just as quickly fell out of the gameplay loop.
