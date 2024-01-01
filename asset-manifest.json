@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "./static/css/main.41e1edb4.css",
-    "main.js": "./static/js/main.23c98d6c.js",
+    "main.js": "./static/js/main.cae9ef3e.js",
     "static/js/787.c9d17bff.chunk.js": "./static/js/787.c9d17bff.chunk.js",
     "static/media/arisJam.webm": "./static/media/arisJam.e6694fbaaa4f844383ed.webm",
-    "static/media/findings.md": "./static/media/findings.4613d10f9eca37be3487.md",
+    "static/media/findings.md": "./static/media/findings.8f23e347cb9d23fdd6a0.md",
     "static/media/datasetandtech.md": "./static/media/datasetandtech.743a3da74e1e34615926.md",
     "static/media/about.md": "./static/media/about.f5d4ea659fceba255def.md",
     "index.html": "./index.html",
     "main.41e1edb4.css.map": "./static/css/main.41e1edb4.css.map",
-    "main.23c98d6c.js.map": "./static/js/main.23c98d6c.js.map",
+    "main.cae9ef3e.js.map": "./static/js/main.cae9ef3e.js.map",
     "787.c9d17bff.chunk.js.map": "./static/js/787.c9d17bff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41e1edb4.css",
-    "static/js/main.23c98d6c.js"
+    "static/js/main.cae9ef3e.js"
   ]
 }
